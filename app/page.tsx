@@ -12,21 +12,21 @@ export default function Home() {
         <section className={styles.games}>
           <section className={styles["big-games"]}>
             <Image
-              src="/Clone Drone in the Hyperdome cover art.jpg"
-              width={332}
-              height={498}
+              src="/Clone Drone in the Hyperdome cover art 4.jpg"
+              width={375}
+              height={500}
               alt="Picture of the author"
             />
             <Image
-              src="/Beast Breaker cover art.jpg"
-              width={332}
-              height={498}
+              src="/Beast Breaker cover art 2.jpg"
+              width={375}
+              height={500}
               alt="Picture of the author"
             />
             <Image
-              src="/Lost Your Marbles cover art.png"
-              width={332}
-              height={498}
+              src="/Lost Your Marbles cover art.jpg"
+              width={375}
+              height={500}
               alt="Picture of the author"
             />
           </section>
