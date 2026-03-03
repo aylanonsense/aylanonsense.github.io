@@ -10,27 +10,30 @@ export default function Home() {
       </header>
       <main>
         <section className={styles.games}>
-          <p>Games</p>
           <section className={styles["big-games"]}>
             <Image
-              src="/beast-breaker.avif"
-              width={800}
-              height={500}
+              src="/Clone Drone in the Hyperdome cover art.jpg"
+              width={332}
+              height={498}
               alt="Picture of the author"
             />
             <Image
-              src="/clone-drone-in-the-hyperdome.jpg"
-              width={800}
-              height={500}
+              src="/Beast Breaker cover art.jpg"
+              width={332}
+              height={498}
               alt="Picture of the author"
             />
             <Image
-              src="/lost-your-marbles.jpg"
-              width={800}
-              height={500}
+              src="/Lost Your Marbles cover art.png"
+              width={332}
+              height={498}
               alt="Picture of the author"
             />
           </section>
+          <video width="320" height="240" preload="none" muted={true} autoPlay={true}>
+            <source src="/Clone Drone in the Hyperdome gameplay.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
           <section>
             <h2>Small games</h2>
           </section>
