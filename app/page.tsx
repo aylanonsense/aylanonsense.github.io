@@ -13,8 +13,8 @@ export default function Home() {
             <li className={styles.cover}>
               <Image
                 src="/Clone Drone in the Hyperdome cover art 4.jpg"
-                width={375}
-                height={500}
+                width={300}
+                height={300}
                 alt="x"
               />
             </li>
@@ -34,39 +34,72 @@ export default function Home() {
                 alt="x"
               />
             </li>
-            <li className={styles.big}></li>
-            <li className={styles.big}>
-              <Image
-                src="/Beast Breaker gameplay.gif"
-                width={256}
-                height={256}
-                alt="x"
-              />
-            </li>
-            <li className={styles.big}>
-              <Image
-                src="/Lost Your Marbles gameplay.gif"
-                width={256}
-                height={256}
-                alt="x"
-              />
-            </li>
             <li className={styles.big}>
               <Image
                 src="/Just One Boss gameplay.gif"
-                width={256}
-                height={256}
+                className={styles.pixelated}
+                width={375}
+                height={375}
+                alt="x"
+              />
+            </li>
+            <li className={styles.big}>
+              <Image
+                src="/8 Legs to Love gameplay.gif"
+                className={styles.pixelated}
+                width={375}
+                height={375}
+                alt="x"
+              />
+            </li>
+            <li className={styles.big}>
+              <Image
+                src="/arpongi gameplay.gif"
+                className={styles.pixelated}
+                width={375}
+                height={375}
                 alt="x"
               />
             </li>
             <li className={styles.big}></li>
             <li className={styles.big}></li>
+            <li className={styles.big}></li>
             <li className={styles.medium}></li>
             <li className={styles.medium}></li>
             <li className={styles.medium}></li>
             <li className={styles.medium}></li>
             <li className={styles.medium}></li>
             <li className={styles.medium}></li>
+            <li className={styles.medium}></li>
+            <li className={styles.medium}></li>
+            <li className={styles.medium}></li>
+            <li className={styles.medium}></li>
+            <li className={styles.medium}></li>
+            <li className={styles.medium}></li>
+            <li className={styles.small}></li>
+            <li className={styles.small}></li>
+            <li className={styles.small}></li>
+            <li className={styles.small}></li>
+            <li className={styles.small}></li>
+            <li className={styles.small}></li>
+            <li className={styles.small}></li>
+            <li className={styles.small}></li>
+            <li className={styles.small}></li>
+            <li className={styles.small}></li>
+            <li className={styles.small}></li>
+            <li className={styles.small}></li>
+            <li className={styles.tiny}></li>
+            <li className={styles.tiny}></li>
+            <li className={styles.tiny}></li>
+            <li className={styles.tiny}></li>
+            <li className={styles.tiny}></li>
+            <li className={styles.tiny}></li>
+            <li className={styles.tiny}></li>
+            <li className={styles.tiny}></li>
+            <li className={styles.tiny}></li>
+            <li className={styles.tiny}></li>
+            <li className={styles.tiny}></li>
+            <li className={styles.tiny}></li>
             <li className={styles.tiny}></li>
             <li className={styles.tiny}></li>
             <li className={styles.tiny}></li>

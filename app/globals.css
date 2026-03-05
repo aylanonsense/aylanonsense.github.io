@@ -29,7 +29,7 @@ table {
 
 /* Color scheme */
 :root {
-  --background: #000;
+  --background: #0c0c0c;
   --foreground: #fff;
 }
 html, body {
@@ -38,7 +38,7 @@ html, body {
 @media (prefers-color-scheme: light) {
   :root {
     --background: #fff;
-    --foreground: #000;
+    --foreground: #0c0c0c;
   }
   html, body {
     color-scheme: light;
