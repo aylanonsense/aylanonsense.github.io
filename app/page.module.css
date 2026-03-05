@@ -29,7 +29,7 @@
     }
   }
 
-  .cover {
+  .title-art {
     grid-column-end: span 4;
   }
 
@@ -127,7 +127,7 @@
     grid-auto-rows: 22px;
     gap: 2px;
 
-    .cover {
+    .title-art {
       grid-column-end: span 12;
       grid-row-end: span 1;
     }
