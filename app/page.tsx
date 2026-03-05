@@ -3,46 +3,83 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.content}>
+    <div className={styles.page}>
       <header>
         <h1>ayla~nonsense</h1>
-        <p>Game developer</p>
       </header>
       <main>
-        <section className={styles.games}>
-          <section className={styles["big-games"]}>
-            <Image
-              src="/Clone Drone in the Hyperdome cover art 4.jpg"
-              width={375}
-              height={500}
-              alt="Picture of the author"
-            />
-            <Image
-              src="/Beast Breaker cover art 2.jpg"
-              width={375}
-              height={500}
-              alt="Picture of the author"
-            />
-            <Image
-              src="/Lost Your Marbles cover art.jpg"
-              width={375}
-              height={500}
-              alt="Picture of the author"
-            />
-          </section>
-          <video width="320" height="240" preload="none" muted={true} autoPlay={true}>
-            <source src="/Clone Drone in the Hyperdome gameplay.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <section>
-            <h2>Small games</h2>
-          </section>
-          <section>
-            <h2>Mini games</h2>
-          </section>
-        </section>
         <section>
-          <p>Resume</p>
+          <ul className={styles.grid}>
+            <li className={styles.cover}>
+              <Image
+                src="/Clone Drone in the Hyperdome cover art 4.jpg"
+                width={375}
+                height={500}
+                alt="x"
+              />
+            </li>
+            <li className={styles.cover}>
+              <Image
+                src="/Beast Breaker cover art 2.jpg"
+                width={375}
+                height={500}
+                alt="x"
+              />
+            </li>
+            <li className={styles.cover}>
+              <Image
+                src="/Lost Your Marbles cover art.jpg"
+                width={375}
+                height={500}
+                alt="x"
+              />
+            </li>
+            <li className={styles.big}></li>
+            <li className={styles.big}>
+              <Image
+                src="/Beast Breaker gameplay.gif"
+                width={256}
+                height={256}
+                alt="x"
+              />
+            </li>
+            <li className={styles.big}>
+              <Image
+                src="/Lost Your Marbles gameplay.gif"
+                width={256}
+                height={256}
+                alt="x"
+              />
+            </li>
+            <li className={styles.big}>
+              <Image
+                src="/Just One Boss gameplay.gif"
+                width={256}
+                height={256}
+                alt="x"
+              />
+            </li>
+            <li className={styles.big}></li>
+            <li className={styles.big}></li>
+            <li className={styles.medium}></li>
+            <li className={styles.medium}></li>
+            <li className={styles.medium}></li>
+            <li className={styles.medium}></li>
+            <li className={styles.medium}></li>
+            <li className={styles.medium}></li>
+            <li className={styles.tiny}></li>
+            <li className={styles.tiny}></li>
+            <li className={styles.tiny}></li>
+            <li className={styles.tiny}></li>
+            <li className={styles.tiny}></li>
+            <li className={styles.tiny}></li>
+            <li className={styles.tiny}></li>
+            <li className={styles.tiny}></li>
+            <li className={styles.tiny}></li>
+            <li className={styles.tiny}></li>
+            <li className={styles.tiny}></li>
+            <li className={styles.tiny}></li>
+          </ul>
         </section>
       </main>
     </div>
