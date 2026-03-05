@@ -12,7 +12,7 @@ export default function Home() {
           <ul className={styles.grid}>
             <li className={styles.cover}>
               <Image
-                src="/Clone Drone in the Hyperdome key art.jpg"
+                src="/Clone Drone in the Hyperdome title art.webp"
                 width={376}
                 height={500}
                 alt="Clone Drone in the Hyperdome"
@@ -20,7 +20,7 @@ export default function Home() {
             </li>
             <li className={styles.cover}>
               <Image
-                src="/Beast Breaker key art.jpg"
+                src="/Beast Breaker title art.webp"
                 width={376}
                 height={500}
                 alt="Beast Breaker"
@@ -28,7 +28,7 @@ export default function Home() {
             </li>
             <li className={styles.cover}>
               <Image
-                src="/Lost Your Marbles key art.jpg"
+                src="/Lost Your Marbles title art.webp"
                 width={376}
                 height={500}
                 alt="x"
