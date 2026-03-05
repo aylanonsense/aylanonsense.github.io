@@ -12,24 +12,24 @@ export default function Home() {
           <ul className={styles.grid}>
             <li className={styles.cover}>
               <Image
-                src="/Clone Drone in the Hyperdome cover art 4.jpg"
-                width={300}
-                height={300}
-                alt="x"
-              />
-            </li>
-            <li className={styles.cover}>
-              <Image
-                src="/Beast Breaker cover art 2.jpg"
-                width={375}
+                src="/Clone Drone in the Hyperdome key art.jpg"
+                width={376}
                 height={500}
-                alt="x"
+                alt="Clone Drone in the Hyperdome"
               />
             </li>
             <li className={styles.cover}>
               <Image
-                src="/Lost Your Marbles cover art.jpg"
-                width={375}
+                src="/Beast Breaker key art.jpg"
+                width={376}
+                height={500}
+                alt="Beast Breaker"
+              />
+            </li>
+            <li className={styles.cover}>
+              <Image
+                src="/Lost Your Marbles key art.jpg"
+                width={376}
                 height={500}
                 alt="x"
               />
