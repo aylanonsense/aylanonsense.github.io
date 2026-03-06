@@ -16,6 +16,7 @@
 
   &.poster {
     grid-column-end: span 4;
+    grid-row-end: span 5;
 
     &:hover {
       transform: scale(103%);
