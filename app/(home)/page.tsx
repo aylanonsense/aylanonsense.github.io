@@ -1,5 +1,5 @@
-import Grid from './Grid'
-import GridCell from './GridCell'
+import Grid from '@/app/components/Grid'
+import GridCell from '@/app/components/GridCell'
 
 export default function Page() {
   return (
@@ -17,6 +17,7 @@ export default function Page() {
             shape="poster"
             src="/Beast Breaker title art.webp"
             alt="Beast Breaker"
+            href="/beast-breaker"
             width={376}
             height={500} />
           <GridCell

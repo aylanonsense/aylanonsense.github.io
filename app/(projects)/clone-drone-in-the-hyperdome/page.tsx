@@ -1,4 +1,4 @@
-import YouTubeEmbed from "../YouTubeEmbed";
+import YouTubeEmbed from "@/app/components/YouTubeEmbed";
 
 export default function Page() {
   return (
