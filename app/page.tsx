@@ -1,7 +1,8 @@
-import Image from 'next/image';
+import Grid from './Grid'
+import GridCell from './GridCell'
 import styles from "./page.module.css";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <div className={styles.page}>
       <header>
@@ -9,302 +10,242 @@ export default function Home() {
       </header>
       <main>
         <section>
-          <ul className={styles.grid}>
-            <li className={styles["title-art"]}>
-              <Image
+          <Grid>
+            <GridCell
+                shape="poster"
                 src="/Clone Drone in the Hyperdome title art.webp"
-                width={376}
-                height={500}
                 alt="Clone Drone in the Hyperdome"
-              />
-            </li>
-            <li className={styles["title-art"]}>
-              <Image
+                width={376}
+                height={500} />
+            <GridCell
+                shape="poster"
                 src="/Beast Breaker title art.webp"
-                width={376}
-                height={500}
                 alt="Beast Breaker"
-              />
-            </li>
-            <li className={styles["title-art"]}>
-              <Image
-                src="/Lost Your Marbles title art.webp"
                 width={376}
-                height={500}
+                height={500} />
+            <GridCell
+                shape="poster"
+                src="/Lost Your Marbles title art.webp"
                 alt="Lost Your Marbles"
-              />
-            </li>
-            <li className={styles.big}>
-              <Image
+                width={376}
+                height={500} />
+            <GridCell
+                shape="big"
                 src="/Just One Boss clip.gif"
-                className={styles.pixelated}
+                alt="Just One Boss"
                 width={128}
                 height={128}
-                alt="Just One Boss"
-              />
-            </li>
-            <li className={styles.big}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="big"
                 src="/arpongi clip.gif"
-                className={styles.pixelated}
+                alt="arpongi"
                 width={127}
                 height={127}
-                alt="arpongi"
-              />
-            </li>
-            <li className={styles.big}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="big"
                 src="/8 Legs to Love clip.gif"
-                className={styles.pixelated}
+                alt="8 Legs to Love"
                 width={128}
                 height={128}
-                alt="8 Legs to Love"
-              />
-            </li>
-            <li className={styles.big}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="big"
                 src="/staring clip.gif"
-                className={styles.pixelated}
+                alt="staring"
                 width={190}
                 height={190}
-                alt="staring"
-              />
-            </li>
-            <li className={styles.big}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="big"
                 src="/Recommendation Dog clip.gif"
-                className={styles.pixelated}
+                alt="Recommendation Dog"
                 width={280}
                 height={280}
-                alt="Recommendation Dog"
-              />
-            </li>
-            <li className={styles.big}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="big"
                 src="/Quickdraw Blackjack clip.gif"
-                className={styles.pixelated}
+                alt="Quickdraw Blackjack"
                 width={190}
                 height={190}
-                alt="Quickdraw Blackjack"
-              />
-            </li>
-            <li className={styles.medium}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="medium"
                 src="/AGAB clip.gif"
-                className={styles.pixelated}
+                alt="AGAB"
                 width={128}
                 height={128}
-                alt="AGAB"
-              />
-            </li>
-            <li className={styles.medium}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="medium"
                 src="/Snowball Showdown clip.gif"
-                className={styles.pixelated}
+                alt="Snowball Showdown"
                 width={127}
                 height={127}
-                alt="Snowball Showdown"
-              />
-            </li>
-            <li className={styles.medium}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="medium"
                 src="/Juggle Panic clip.gif"
-                className={styles.pixelated}
+                alt="Juggle Panic"
                 width={126}
                 height={126}
-                alt="Juggle Panic"
-              />
-            </li>
-            <li className={styles.medium}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="medium"
                 src="/Reel Steal clip.gif"
-                className={styles.pixelated}
+                alt="Reel Steal"
                 width={240}
                 height={240}
-                alt="Reel Steal"
-              />
-            </li>
-            <li className={styles.small}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="small"
                 src="/Snowboarding prototype clip.gif"
-                className={styles.pixelated}
-                width={128}
-                height={128}
                 alt="Snowboarding prototype"
-              />
-            </li>
-            <li className={styles.small}>
-              <Image
-                src="/Western prototype clip.gif"
-                className={styles.pixelated}
                 width={128}
                 height={128}
+                pixelated={true} />
+            <GridCell
+                shape="small"
+                src="/Western prototype clip.gif"
                 alt="Western prototype"
-              />
-            </li>
-            <li className={styles.small}>
-              <Image
+                width={128}
+                height={128}
+                pixelated={true} />
+            <GridCell
+                shape="small"
                 src="/Castle minigames clip.gif"
-                className={styles.pixelated}
+                alt="Castle minigames"
                 width={192}
                 height={192}
-                alt="Castle minigames"
-              />
-            </li>
-            <li className={styles.small}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="small"
                 src="/Grapple prototype 2 clip.gif"
-                className={styles.pixelated}
+                alt="Grapple prototype #2"
                 width={75}
                 height={75}
-                alt="Grapple prototype #2"
-              />
-            </li>
-            <li className={styles.small}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="small"
                 src="/Tennis prototype clip.gif"
-                className={styles.pixelated}
+                alt="Tennis prototype"
                 width={30}
                 height={30}
-                alt="Tennis prototype"
-              />
-            </li>
-            <li className={styles.small}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="small"
                 src="/Exact change clip.gif"
-                className={styles.pixelated}
+                alt="Exact change"
                 width={70}
                 height={70}
-                alt="Exact change"
-              />
-            </li>
-            <li className={styles.tiny}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="tiny"
                 src="/Plat fighter prototype clip.gif"
+                alt="Plat fighter prototype"
                 width={118}
                 height={118}
-                alt="Plat fighter prototype"
-              />
-            </li>
-            <li className={styles.tiny}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="tiny"
                 src="/beevoobaa clip.gif"
-                className={styles.pixelated}
+                alt="beevoobaa"
                 width={75}
                 height={75}
-                alt="beevoobaa"
-              />
-            </li>
-            <li className={styles.tiny}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="tiny"
                 src="/Efflorescence clip.gif"
+                alt="Efflorescence"
                 width={150}
                 height={150}
-                alt="Efflorescence"
-              />
-            </li>
-            <li className={styles.tiny}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="tiny"
                 src="/Boss fight prototype clip.gif"
-                className={styles.pixelated}
+                alt="Boss fight prototype"
                 width={46}
                 height={46}
-                alt="Boss fight prototype"
-              />
-            </li>
-            <li className={styles.tiny}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="tiny"
                 src="/Grapple prototype 1 clip.gif"
+                alt="Grapple prototype #1"
                 width={105}
                 height={105}
-                alt="Grapple prototype #1"
-              />
-            </li>
-            <li className={styles.tiny}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="tiny"
                 src="/Mindsweeper clip.gif"
+                alt="Mindsweeper"
                 width={156}
                 height={156}
-                alt="Mindsweeper"
-              />
-            </li>
-            <li className={styles.tiny}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="tiny"
                 src="/Minepick platformer prototype clip.gif"
-                className={styles.pixelated}
+                alt="Minepick platformer prototype"
                 width={50}
                 height={50}
-                alt="Minepick platformer prototype"
-              />
-            </li>
-            <li className={styles.tiny}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="tiny"
                 src="/Nebulaic clip.gif"
+                alt="Nebulaic"
                 width={125}
                 height={125}
-                alt="Nebulaic"
-              />
-            </li>
-            <li className={styles.tiny}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="tiny"
                 src="/Wave function collapse clip.gif"
+                alt="Wave function collapse"
                 width={75}
                 height={75}
-                alt="Wave function collapse"
-              />
-            </li>
-            <li className={styles.tiny}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="tiny"
                 src="/Time travel prototype clip.gif"
-                className={styles.pixelated}
+                alt="Time travel prototype"
                 width={50}
                 height={50}
-                alt="Time travel prototype"
-              />
-            </li>
-            <li className={styles.tiny}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="tiny"
                 src="/Racquet Panic clip.gif"
-                className={styles.pixelated}
+                alt="Racquet Panic"
                 width={72}
                 height={72}
-                alt="Racquet Panic"
-              />
-            </li>
-            <li className={styles.tiny}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="tiny"
                 src="/Virtual pet prototype clip.gif"
+                alt="Virtual pet prototype"
                 width={100}
                 height={100}
-                alt="Virtual pet prototype"
-              />
-            </li>
-            <li className={styles.tiny}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="tiny"
                 src="/Train prototype clip.gif"
-                className={styles.pixelated}
+                alt="Train prototype"
                 width={64}
                 height={64}
-                alt="Train prototype"
-              />
-            </li>
-            <li className={styles.tiny}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="tiny"
                 src="/Voxel landscape generation clip.gif"
+                alt="Voxel landscape generation"
                 width={150}
                 height={150}
-                alt="Voxel landscape generation"
-              />
-            </li>
-            <li className={styles.tiny}>
-              <Image
+                pixelated={true} />
+            <GridCell
+                shape="tiny"
                 src="/Emoji surgeon thumbnail.png"
-                width={120}
-                height={120}
                 alt="Emoji surgeon"
-              />
-            </li>
-          </ul>
+                width={120}
+                height={120} />
+          </Grid>
         </section>
       </main>
     </div>

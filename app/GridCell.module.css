@@ -1,0 +1,91 @@
+.gridCell {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: #1a1a1a;
+  animation: gridCellBackground 1s linear infinite;
+
+  >img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@keyframes gridCellBackground {
+  0% { background: #1a1a1a; }
+  20% { background: #1a1a1a; }
+  50% { background: #151515; }
+  80% { background: #1a1a1a; }
+  100% { background: #1a1a1a; }
+}
+
+.poster {
+  grid-column-end: span 4;
+}
+
+.big {
+  grid-column-end: span 4;
+  grid-row-end: span 4;
+}
+
+.medium {
+  grid-column-end: span 3;
+  grid-row-end: span 3;
+}
+
+.small {
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+}
+
+.tiny {
+  grid-column-end: span 1;
+  grid-row-end: span 1;
+}
+
+@media only screen and (max-width: 725px) {
+  .tiny {
+    grid-column-end: span 2;
+    grid-row-end: span 2;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .tiny {
+    grid-column-end: span 2;
+    grid-row-end: span 2;
+  }
+}
+
+@media only screen and (max-width: 435px) {
+  .poster {
+    grid-column-end: span 12;
+    grid-row-end: span 1;
+  }
+
+  .big {
+    grid-column-end: span 12;
+    grid-row-end: span 12;
+  }
+
+  .medium {
+    grid-column-end: span 6;
+    grid-row-end: span 6;
+  }
+
+  .small {
+    grid-column-end: span 6;
+    grid-row-end: span 6;
+  }
+
+  .tiny {
+    grid-column-end: span 4;
+    grid-row-end: span 4;
+  }
+}
+
+.pixelated {
+  image-rendering: pixelated;
+}
