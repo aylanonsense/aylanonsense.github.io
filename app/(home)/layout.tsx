@@ -13,9 +13,7 @@ export default function Layout({
           <h1><Link href="/">ayla~nonsense</Link></h1>
         </header>
         <main>
-          <div className={styles.content}>
-            {children}
-          </div>
+          {children}
         </main>
       </div>
     </>

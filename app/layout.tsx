@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import styles from "./layout.module.css";
 
 export const metadata: Metadata = {
   title: "ayla~nonsense",
@@ -14,10 +13,13 @@ export default function Layout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet" />
+      </head>
       <body>
-        <div className={styles.layout}>
-          {children}
-        </div>
+        {children}
       </body>
     </html>
   );

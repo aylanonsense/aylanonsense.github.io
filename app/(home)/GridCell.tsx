@@ -12,7 +12,7 @@ export default function GridCell({ shape, src, alt, href = undefined, width, hei
   height: number,
   pixelated?: boolean,
 }) {
-  const img = 
+  const img =
     <Image
       src={src}
       alt={alt}
