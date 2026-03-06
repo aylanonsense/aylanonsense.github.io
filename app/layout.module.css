@@ -1,4 +1,4 @@
-.page {
+.layout {
   max-width: 1144px;
   width: auto;
   margin-left: auto;
@@ -6,31 +6,31 @@
 }
 
 @media only screen and (max-width: 1160px) {
-  .page {
+  .layout {
     max-width: 858px;
   }
 }
 
 @media only screen and (max-width: 870px) {
-  .page {
+  .layout {
     max-width: 715px;
   }
 }
 
 @media only screen and (max-width: 725px) {
-  .page {
+  .layout {
     max-width: 572px;
   }
 }
 
 @media only screen and (max-width: 580px) {
-  .page {
+  .layout {
     max-width: 429px;
   }
 }
 
 @media only screen and (max-width: 435px) {
-  .page {
+  .layout {
     max-width: 286px;
   }
 }

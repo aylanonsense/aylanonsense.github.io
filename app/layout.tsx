@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import styles from "./layout.module.css";
 
 export const metadata: Metadata = {
   title: "ayla~nonsense",
   description: "The personal portfolio of Ayla Myers.",
 };
 
-export default function RootLayout({
+export default function Layout({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -14,7 +15,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {children}
+        <div className={styles.layout}>
+          {children}
+        </div>
       </body>
     </html>
   );

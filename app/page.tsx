@@ -1,10 +1,9 @@
 import Grid from './Grid'
 import GridCell from './GridCell'
-import styles from "./page.module.css";
 
-export default function HomePage() {
+export default function Page() {
   return (
-    <div className={styles.page}>
+    <>
       <header>
         <h1>ayla~nonsense</h1>
       </header>
@@ -33,6 +32,7 @@ export default function HomePage() {
                 shape="big"
                 src="/Just One Boss clip.gif"
                 alt="Just One Boss"
+                href="/just-one-boss"
                 width={128}
                 height={128}
                 pixelated={true} />
@@ -248,6 +248,6 @@ export default function HomePage() {
           </Grid>
         </section>
       </main>
-    </div>
+    </>
   );
 }
