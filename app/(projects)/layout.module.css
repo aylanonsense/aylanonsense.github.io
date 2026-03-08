@@ -1,23 +1,32 @@
 .layout {
-  max-width: 572px;
-  width: auto;
+  max-width: 1144px;
   margin-left: auto;
   margin-right: auto;
-}
+  padding-top: 30px;
 
-.content {
-  h3 {
-    font-size: 200%;
+  header {
+    padding-bottom: 30px;
+
+    h1 {
+      font-size: 20pt;
+      font-weight: 700;
+    }
   }
 
-  a {
-    text-decoration: underline;
+  main {
+    max-width: 858px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
-/* @media only screen and (max-width: 1160px) {
+@media only screen and (max-width: 1160px) {
   .layout {
     max-width: 858px;
+
+    main {
+      max-width: 715px;
+    }
   }
 }
 
@@ -43,4 +52,4 @@
   .layout {
     max-width: 286px;
   }
-} */
+}

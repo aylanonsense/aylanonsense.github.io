@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
+import { Raleway } from "next/font/google";
 import "./globals.css";
+
+const raleway = Raleway({
+  variable: "--font-raleway",
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "ayla~nonsense",
@@ -13,12 +19,7 @@ export default function Layout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet" />
-      </head>
-      <body>
+      <body className={raleway.variable}>
         {children}
       </body>
     </html>

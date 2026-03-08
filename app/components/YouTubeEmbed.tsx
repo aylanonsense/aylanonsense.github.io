@@ -1,7 +1,12 @@
-export default function YouTubeEmbed({ src, width, height }: {
+import { CSSProperties } from "react";
+
+export default function YouTubeEmbed({ src, width, height, aspectRatio, className, style }: {
   src: string,
-  width: number,
-  height: number,
+  width?: number | undefined,
+  height?: number | undefined,
+  aspectRatio?: number | undefined,
+  className?: string | undefined,
+  style?: CSSProperties | undefined,
 }) {
   return (
     <iframe
@@ -9,7 +14,8 @@ export default function YouTubeEmbed({ src, width, height }: {
       width={width}
       height={height}
       title="YouTube video player"
-      style={{ border: 0 }}
+      style={{ aspectRatio, border: 0, ...style }}
+      className={className}
       allow="autoplay; clipboard-write; encrypted-media; picture-in-picture;"
       referrerPolicy="strict-origin-when-cross-origin"
       allowFullScreen={true} />

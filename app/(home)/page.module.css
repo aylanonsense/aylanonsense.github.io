@@ -1,36 +1,59 @@
-.layout {
+/* Structure */
+.page {
   max-width: 1144px;
-  width: auto;
   margin-left: auto;
   margin-right: auto;
+
+  header {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 1160px) {
-  .layout {
+  .page {
     max-width: 858px;
   }
 }
 
 @media only screen and (max-width: 870px) {
-  .layout {
+  .page {
     max-width: 715px;
   }
 }
 
 @media only screen and (max-width: 725px) {
-  .layout {
+  .page {
     max-width: 572px;
   }
 }
 
 @media only screen and (max-width: 580px) {
-  .layout {
+  .page {
     max-width: 429px;
   }
 }
 
 @media only screen and (max-width: 435px) {
-  .layout {
+  .page {
     max-width: 286px;
+  }
+}
+
+
+/* Fonts */
+.page {
+  header {
+    h1 {
+      font-size: 50pt;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 18pt;
+    }
   }
 }

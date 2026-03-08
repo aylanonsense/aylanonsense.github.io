@@ -35,8 +35,8 @@ table {
 
 /* Color scheme */
 :root {
-  --background: #151311;
-  --foreground: #f2faf1;
+  --background: #161311;
+  --foreground: #f8f6f4;
 }
 
 html, body {
@@ -59,12 +59,8 @@ body {
   background: var(--background);
 }
 
+
 /* Fonts */
 body {
-  color: #f2fae8;
-  font-family: "Nanum Myeongjo", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 115%;
-  line-height: 145%;
+  font-family: var(--font-raleway);
 }
