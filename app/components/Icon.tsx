@@ -1,12 +1,27 @@
 import { CSSProperties } from "react";
 
-export default function Icon({ icon, width, height, className, style }: {
-  icon: "Epic Games" | "Facebook" | "Game Jolt" | "GitHub" | "Instagram" | "itch.io" | "Lexaloffle" | "LinkedIn" | "Mail" | "Newgrounds" | "Nintendo Switch" | "Play" | "Resume" | "Steam" | "Tumblr" | "Twitch" | "YouTube",
+export type IconType = "Epic Games" | "Facebook" | "Game Jolt" | "GitHub"
+  | "Instagram" | "itch.io" | "Lexaloffle" | "LinkedIn" | "Mail" | "Newgrounds"
+  | "Nintendo Switch" | "Play" | "Resume" | "Steam" | "Tumblr" | "Twitch" | "YouTube"
+
+export type IconParameters = {
+  icon: IconType,
   width: number,
   height: number,
   className?: string | undefined,
   style?: CSSProperties | undefined,
-}) {
+}
+
+export function guessIconTypeFromLink(href: string): IconType | undefined {
+  if (href.startsWith("https://store.epicgames.com")) {
+    return "Epic Games"
+  }
+  else if (href.startsWith("https://www.nintendo.com")) {
+    return "Nintendo Switch"
+  }
+}
+
+export default function Icon({ icon, width, height, className, style }: IconParameters) {
   switch (icon) {
     case "Epic Games":
       return (

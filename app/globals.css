@@ -37,6 +37,7 @@ table {
 :root {
   --background: #161311;
   --foreground: #f8f6f4;
+  --highlight: #ff499e;
 }
 
 html, body {
@@ -56,6 +57,7 @@ html, body {
 
 body {
   color: var(--foreground);
+  fill: var(--foreground);
   background: var(--background);
 }
 

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "./layout.module.css";
+import Icon from "../components/Icon";
 
 export default function Layout({
   children,
@@ -11,6 +12,10 @@ export default function Layout({
       <div className={styles.layout}>
         <header>
           <h1><Link href="/">ayla~nonsense</Link></h1>
+          <ul>
+            <li><a href="https://aylanonsense.itch.io/" target="_blank" rel="noopener noreferrer"><Icon icon="itch.io" width={24} height={24} /></a></li>
+            <li><a href="https://github.com/aylanonsense" target="_blank" rel="noopener noreferrer"><Icon icon="GitHub" width={24} height={24} /></a></li>
+          </ul>
         </header>
         <main>
           <div className={styles.content}>

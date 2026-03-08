@@ -5,11 +5,26 @@
   padding-top: 30px;
 
   header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     padding-bottom: 30px;
 
     h1 {
       font-size: 20pt;
       font-weight: 700;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+
+      li {
+        a:hover svg {
+          fill: var(--highlight);
+        }
+      }
     }
   }
 
