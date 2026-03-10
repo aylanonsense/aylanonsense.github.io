@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description: "The personal portfolio of Ayla Myers.",
 };
 
-export default function Layout({
+export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;

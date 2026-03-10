@@ -15,7 +15,7 @@ export default function Page() {
           src="https://www.youtube-nocookie.com/embed/SZhqedzllLE?si=N72-HHaKdfa4vvwN"
           aspectRatio={560 / 315} />
       </ProjectHeader>
-      <p>A turn-based action adventure combining traditional RPG mechanics with Peggle-like bouncing and ricochets. You play as Skipper, a small mouse tasked with defending world of small creatures from mosaic glass Beasts. The core gameplay revolves around battling Beasts, crafting/upgrading equipment, conversing with your companions, and uncovering the overarching narrative over the course of a 15-hour playthrough.</p>
+      <p>An action adventure combining turn-based RPG mechanics with Peggle-like bouncing and ricochets. You play as a small mouse defending a world of woodland critters from massive monsters made of mosaic glass tiles. The core gameplay revolves around battling monsters, crafting/upgrading equipment, conversing with companions, and uncovering the overarching narrative over the course of a 15-hour playthrough.</p>
     </>
   );
 }
