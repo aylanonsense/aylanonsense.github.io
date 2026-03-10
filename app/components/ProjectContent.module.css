@@ -1,0 +1,19 @@
+.projectContent {
+  margin: 0 auto;
+  max-width: 560px;
+  line-height: 1.25;
+  /* margin-left: 50px; */
+  /* margin-right: 50px; */
+
+  p, img {
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    /* padding-left: 50px; */
+    /* padding-right: 50px; */
+  }
+}

@@ -11,32 +11,30 @@ export default function ProjectHeader({ title, date, releaseDate, links, childre
   children?: ReactNode | undefined,
 }) {
   return (
-    <>
-      <div className={styles.projectHeader}>
-        <h2>{title}</h2>
-        <div className={styles.contentAboveTitle}>
-          {children}
-        </div>
-        {releaseDate ?
-          (<p className={styles.date}>Released {releaseDate}</p>)
-          : (date ? (<p className={styles.date}>{date}</p>) : undefined)}
-        {links && links.length > 0 ?
-          (<ul>
-            {links.map(href => {
-              const icon = guessIconTypeFromLink(href)
-              if (icon) {
-                return (
-                  <li key={href}>
-                    <ExternalLink href={href}>
-                      <Icon icon={icon} width={22} height={22} />
-                    </ExternalLink>
-                  </li>
-                )
-              }
-            })}
-          </ul>)
-        : undefined}
+    <div className={styles.projectHeader}>
+      <h2>{title}</h2>
+      <div className={styles.contentAboveTitle}>
+        {children}
       </div>
-    </>
+      {releaseDate ?
+        (<p className={styles.date}>Released {releaseDate}</p>)
+        : (date ? (<p className={styles.date}>{date}</p>) : undefined)}
+      {links && links.length > 0 ?
+        (<ul>
+          {links.map(href => {
+            const icon = guessIconTypeFromLink(href)
+            if (icon) {
+              return (
+                <li key={href}>
+                  <ExternalLink href={href}>
+                    <Icon icon={icon} width={22} height={22} />
+                  </ExternalLink>
+                </li>
+              )
+            }
+          })}
+        </ul>)
+      : undefined}
+    </div>
   );
 }

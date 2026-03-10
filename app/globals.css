@@ -44,17 +44,6 @@ html, body {
   color-scheme: dark;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --background: #fff;
-    --foreground: #000;
-  }
-
-  html, body {
-    color-scheme: light;
-  }
-}
-
 body {
   color: var(--foreground);
   fill: var(--foreground);

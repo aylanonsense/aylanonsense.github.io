@@ -1,0 +1,5 @@
+.projectImage {
+  &.pixelated {
+    image-rendering: pixelated;
+  }
+}
