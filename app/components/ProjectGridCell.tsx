@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link'
 import { Url } from 'next/dist/shared/lib/router/router';
-import styles from "./GridCell.module.css"
+import styles from "./ProjectGridCell.module.css"
 
-export default function GridCell({ shape, src, alt, href = undefined, width, height, pixelated = false }: {
+export default function ProjectGridCell({ shape, src, alt, href = undefined, width, height, pixelated = false }: {
   shape: "big" | "medium" | "small" | "tiny" | "poster",
   src: string,
   alt: string,

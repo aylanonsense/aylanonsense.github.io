@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
-import styles from "./Grid.module.css"
+import styles from "./ProjectGrid.module.css"
 
-export default function Grid({ children }: {
+export default function ProjectGrid({ children }: {
   children: ReactNode
 }) {
   return (
