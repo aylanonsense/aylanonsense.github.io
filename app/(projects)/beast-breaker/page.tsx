@@ -18,7 +18,7 @@ export default function Page() {
           aspectRatio={560 / 315} />
       </ProjectHeader>
       <ProjectContent>
-        <p>An action adventure combining turn-based RPG mechanics with Peggle-like bouncing and ricochets. You play as a small mouse defending a world of woodland critters from massive monsters made of mosaic glass tiles which you shatter by bouncing about like a pinball.</p>
+        <p>An action adventure combining turn-based RPG mechanics with Peggle-like gameplay. You play as a small mouse defending a world of woodland critters from massive monsters made of mosaic glass tiles which you shatter by bouncing about like a pinball.</p>
         <ProjectImage
           src="/beast-breaker-gameplay.gif"
           alt="Gameplay in which a mouse ricochets between tiles like a pinball"

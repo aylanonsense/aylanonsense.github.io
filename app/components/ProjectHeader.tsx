@@ -27,7 +27,7 @@ export default function ProjectHeader({ title, date, releaseDate, links, childre
               return (
                 <li key={href}>
                   <ExternalLink href={href}>
-                    <Icon icon={icon} width={22} height={22} />
+                    <Icon icon={icon} width={24} height={24} />
                   </ExternalLink>
                 </li>
               )

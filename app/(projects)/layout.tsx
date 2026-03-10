@@ -20,6 +20,7 @@ export default function Layout({
         <main>
           <div className={styles.content}>
             {children}
+            <p className={styles.backLink}><Link href="/">Back</Link></p>
           </div>
         </main>
       </div>

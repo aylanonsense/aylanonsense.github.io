@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 30px 0 30px 0;
+    margin: 15px 0 30px 0;
 
     h1 {
       font-size: 20pt;
@@ -32,4 +32,12 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .backLink {
+    margin-top: 20px;
+    color: var(--highlight);
+    text-align: center;
+  }
+
+  margin-bottom: 40px;
 }
