@@ -1,13 +1,12 @@
 .layout {
   max-width: 1144px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 15px auto 40px auto;
 
   header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 15px 0 30px 0;
+    margin: 0 0 30px 0;
 
     h1 {
       font-size: 20pt;
@@ -28,7 +27,7 @@
   }
 
   main {
-    max-width: 800px;
+    max-width: 850px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -38,6 +37,4 @@
     color: var(--highlight);
     text-align: center;
   }
-
-  margin-bottom: 40px;
 }

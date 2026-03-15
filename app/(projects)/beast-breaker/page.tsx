@@ -19,19 +19,19 @@ export default function Page() {
           aspectRatio={560 / 315} />
       </ProjectHeader>
       <ProjectContent>
-        <p>An action adventure game combining turn-based RPG mechanics with Peggle-like gameplay. You fight against massive monsters made of mosaic glass tiles which you shatter by bouncing about like a pinball.</p>
+        <p>An action adventure combining turn-based RPG mechanics with Peggle-like gameplay. You fight massive monsters made of glass tiles which you shatter by bouncing about like a pinball.</p>
         <ProjectImage
           src="/beast-breaker-gameplay.gif"
           alt="Gameplay in which a mouse ricochets between tiles like a pinball"
           width={1280}
           height={720} />
-        <p>The core gameplay revolves around battling monsters, crafting/upgrading equipment, conversing with companions, and uncovering the overarching narrative over the course of a 15-hour playthrough.</p>
+        <p>The core gameplay revolves around battling monsters, crafting and upgrading equipment, conversing with companions, and uncovering the overarching narrative over the course of a 15-hour playthrough.</p>
         <ProjectImage
           src="/beast-breaker-screenshot-1.jpg"
           alt={"A hedgehog says to a mouse, \"Well, blow me over with a breeze! You may be tiny, but talk about making a big IMPACT!\"."}
           width={1280}
           height={720} />
-        <p>Beast Breaker received praise for its crunchy turn-based mechanics and its story featuring a diverse cast of woodland critters.</p>
+        <p>Beast Breaker received praise for its crunchy turn-based mechanics and its cozy story featuring a diverse cast of woodland critters.</p>
       </ProjectContent>
     </>
   );
