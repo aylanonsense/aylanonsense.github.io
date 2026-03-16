@@ -1,4 +1,7 @@
 .projectImage {
+  width: 100%;
+  height: auto;
+
   &.pixelated {
     image-rendering: pixelated;
   }

@@ -25,13 +25,18 @@ export default function Page() {
           alt="Gameplay in which a mouse ricochets between tiles like a pinball"
           width={1280}
           height={720} />
-        <p>The core gameplay revolves around battling monsters, crafting and upgrading equipment, conversing with companions, and uncovering the overarching narrative over the course of a 15-hour playthrough.</p>
+        <p>The core gameplay revolves around battling monsters, crafting equipment, conversing with companions, and uncovering the overarching narrative over the course of a 15-hour playthrough.</p>
         <ProjectImage
           src="/beast-breaker-screenshot-1.jpg"
           alt={"A hedgehog says to a mouse, \"Well, blow me over with a breeze! You may be tiny, but talk about making a big IMPACT!\"."}
           width={1280}
           height={720} />
-        <p>Beast Breaker received praise for its crunchy turn-based mechanics and its cozy story featuring a diverse cast of woodland critters.</p>
+        <p>Beast Breaker received praise for its crunchy mechanics and cozy story featuring a diverse cast of woodland critters.</p>
+        <ProjectImage
+          src="/beast-breaker-screenshot-2.jpg"
+          alt="A crystal bug looms over a house on a hilltop."
+          width={1280}
+          height={720} />
       </ProjectContent>
     </>
   );

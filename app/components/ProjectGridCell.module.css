@@ -18,7 +18,7 @@
     grid-row-end: span 5;
 
     &:hover {
-      transform: scale(103%);
+      transform: scale(102.5%);
     }
   }
 

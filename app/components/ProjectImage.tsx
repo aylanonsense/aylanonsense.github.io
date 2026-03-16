@@ -1,6 +1,6 @@
+import { CSSProperties } from 'react';
 import Image from 'next/image';
 import styles from "./ProjectImage.module.css"
-import { CSSProperties } from 'react';
 
 export default function ProjectImage({ src, alt, width, height, pixelated = false, className, style }: {
   src: string,

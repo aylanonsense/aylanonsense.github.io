@@ -36,5 +36,9 @@
     margin-top: 20px;
     color: var(--highlight);
     text-align: center;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
