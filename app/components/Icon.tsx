@@ -2,8 +2,8 @@ import { CSSProperties } from "react"
 
 export type IconType = "Epic Games" | "Facebook" | "Game Jolt" | "GitHub"
   | "Instagram" | "itch.io" | "Lexaloffle" | "LinkedIn" | "Mail" | "Meta"
-  | "Newgrounds" | "Nintendo Switch" | "Play" | "Resume" | "Steam"
-  | "Tumblr" | "Twitch" | "YouTube"
+  | "Newgrounds" | "Nintendo Switch" | "Play" | "Playdate" | "Resume"
+  | "Steam" | "Tumblr" | "Twitch" | "YouTube"
 
 export type IconParameters = {
   icon: IconType,
@@ -22,6 +22,9 @@ export function guessIconTypeFromLink(href: string): IconType | undefined {
   }
   else if (href.startsWith("https://www.nintendo.com")) {
     return "Nintendo Switch"
+  }
+  else if (href.startsWith("https://play.date")) {
+    return "Playdate"
   }
   else if (href.startsWith("https://store.steampowered.com")) {
     return "Steam"
@@ -110,16 +113,19 @@ export default function Icon({ icon, width, height, className, style }: IconPara
           </g>
         </svg>
       )
-    case "Twitch":
-      return (
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="-1.5 -2 26.5 26.5" width={width} height={height} className={className} style={style}>
-          <path d="M2.149 0l-1.612 4.119v16.836h5.731v3.045h3.224l3.045-3.045h4.657l6.269-6.269v-14.686h-21.314zm19.164 13.612l-3.582 3.582h-5.731l-3.045 3.045v-3.045h-4.836v-15.045h17.194v11.463zm-3.582-7.343v6.262h-2.149v-6.262h2.149zm-5.731 0v6.262h-2.149v-6.262h2.149z" fillRule="evenodd" />
-        </svg>
-      )
     case "Play":
       return (
         <svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="-2 0 24 24" width={width} height={height} className={className} style={style}>
           <path d="M3 22v-20l18 10-18 10z" />
+        </svg>
+      )
+    case "Playdate":
+      return (
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="-1.5 -6 112 112" width={width} height={height} className={className} style={style}>
+          <path d="M 10 0 H 90 A 10 10 0 0 1 100 10 V 40 H 110 V 80 H 100 V 90 A 10 10 0 0 1 90 100 H 10 A 10 10 0 0 1 0 90 V 10 A 10 10 0 0 1 10 0
+            M 60 53 a 8 8 0 0 1 0 16 a 8 8 0 0 1 0 -16
+            M 80 53 a 8 8 0 0 1 0 16 a 8 8 0 0 1 0 -16
+            M 22 65 v -6 a 6 6 0 0 1 12 0 v 6 h 6 a 6 6 0 0 1 0 12 h -6 v 6 a 6 6 0 0 1 -12 0 v -6 h -6 a 6 6 0 0 1 0 -12 h 6" fillRule="evenodd" />
         </svg>
       )
     case "Resume":
@@ -138,6 +144,12 @@ export default function Icon({ icon, width, height, className, style }: IconPara
       return (
         <svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="-1 -1 26 26" width={width} height={height} className={className} style={style}>
           <path d="M19.512 17.489l-.096-.068h-3.274c-.153 0-.16-.467-.163-.622v-5.714c0-.056.045-.101.101-.101h3.82c.056 0 .101-.045.101-.101v-5.766c0-.055-.045-.1-.101-.1h-3.803c-.055 0-.1-.045-.1-.101v-4.816c0-.055-.045-.1-.101-.1h-7.15c-.489 0-1.053.362-1.135 1.034-.341 2.778-1.882 4.125-4.276 4.925l-.267.089-.068.096v4.74c0 .056.045.101.1.101h2.9v6.156c0 4.66 3.04 6.859 9.008 6.859 2.401 0 5.048-.855 5.835-1.891l.157-.208-1.488-4.412zm.339 4.258c-.75.721-2.554 1.256-4.028 1.281l-.165.001c-4.849 0-5.682-3.701-5.682-5.889v-7.039c0-.056-.045-.101-.1-.101h-2.782c-.056 0-.101-.045-.101-.101l-.024-3.06.064-.092c2.506-.976 3.905-2.595 4.273-5.593.021-.167.158-.171.159-.171h3.447c.055 0 .101.045.101.101v4.816c0 .056.045.101.1.101h3.803c.056 0 .101.045.101.1v3.801c0 .056-.045.101-.101.101h-3.819c-.056 0-.097.045-.097.101v6.705c.023 1.438.715 2.167 2.065 2.167.544 0 1.116-.126 1.685-.344.053-.021.111.007.13.061l.995 2.95-.024.104z" fillRule="evenodd" />
+        </svg>
+      )
+    case "Twitch":
+      return (
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="-1.5 -2 26.5 26.5" width={width} height={height} className={className} style={style}>
+          <path d="M2.149 0l-1.612 4.119v16.836h5.731v3.045h3.224l3.045-3.045h4.657l6.269-6.269v-14.686h-21.314zm19.164 13.612l-3.582 3.582h-5.731l-3.045 3.045v-3.045h-4.836v-15.045h17.194v11.463zm-3.582-7.343v6.262h-2.149v-6.262h2.149zm-5.731 0v6.262h-2.149v-6.262h2.149z" fillRule="evenodd" />
         </svg>
       )
     case "YouTube":

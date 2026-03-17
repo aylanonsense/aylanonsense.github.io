@@ -31,6 +31,7 @@ export default function Page() {
               shape="poster"
               src="/lost-your-marbles-title-art.webp"
               alt="Lost Your Marbles"
+              href="/lost-your-marbles"
               width={376}
               height={500} />
             <ProjectGridCell
