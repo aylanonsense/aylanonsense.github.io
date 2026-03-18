@@ -2,6 +2,8 @@ import Link from 'next/link';
 import ProjectGrid from '@/app/components/ProjectGrid'
 import ProjectGridCell from '@/app/components/ProjectGridCell'
 import styles from "./page.module.css";
+import TitleArtGrid from '../components/TitleArtGrid';
+import TitleArtGridCell from '../components/TitleArtGridCell';
 
 export default function Page() {
   return (
@@ -12,28 +14,27 @@ export default function Page() {
       </header>
       <main>
         <section>
-          <ProjectGrid>
-            <ProjectGridCell
-              shape="poster"
+          <TitleArtGrid>
+            <TitleArtGridCell
               src="/clone-drone-in-the-hyperdome-title-art.webp"
               alt="Clone Drone in the Hyperdome"
               href="/clone-drone-in-the-hyperdome"
               width={376}
               height={500} />
-            <ProjectGridCell
-              shape="poster"
+            <TitleArtGridCell
               src="/beast-breaker-title-art.webp"
               alt="Beast Breaker"
               href="/beast-breaker"
               width={376}
               height={500} />
-            <ProjectGridCell
-              shape="poster"
+            <TitleArtGridCell
               src="/lost-your-marbles-title-art.webp"
               alt="Lost Your Marbles"
               href="/lost-your-marbles"
               width={376}
               height={500} />
+          </TitleArtGrid>
+          <ProjectGrid>
             <ProjectGridCell
               shape="big"
               src="/just-one-boss-clip.gif"

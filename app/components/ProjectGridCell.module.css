@@ -13,15 +13,6 @@
     height: 100%;
   }
 
-  &.poster {
-    grid-column-end: span 4;
-    grid-row-end: span 5;
-
-    &:hover {
-      transform: scale(102.5%);
-    }
-  }
-
   &.big {
     grid-column-end: span 4;
     grid-row-end: span 4;
@@ -87,11 +78,6 @@
 
 @media only screen and (max-width: 435px) {
   .gridCell {
-    &.poster {
-      grid-column-end: span 12;
-      grid-row-end: span 1;
-    }
-
     &.big {
       grid-column-end: span 12;
       grid-row-end: span 12;

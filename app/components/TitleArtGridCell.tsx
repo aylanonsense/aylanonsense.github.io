@@ -1,10 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link'
 import { Url } from 'next/dist/shared/lib/router/router';
-import styles from "./ProjectGridCell.module.css"
+import styles from "./TitleArtGridCell.module.css"
 
-export default function ProjectGridCell({ shape, src, alt, href = undefined, width, height, pixelated = false }: {
-  shape: "big" | "medium" | "small" | "tiny",
+export default function TitleArtGridCell({ src, alt, href = undefined, width, height, pixelated = false }: {
   src: string,
   alt: string,
   href?: Url,
@@ -22,7 +21,7 @@ export default function ProjectGridCell({ shape, src, alt, href = undefined, wid
       className={pixelated ? styles.pixelated : ''}
     />
   return (
-    <li className={[styles.gridCell, styles[shape]].join(" ")}>
+    <li className={styles.gridCell}>
       {href ? <Link href={href}>{img}</Link> : img}
     </li>
   );
