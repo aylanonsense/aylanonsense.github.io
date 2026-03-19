@@ -17,8 +17,17 @@ export function guessIconTypeFromLink(href: string): IconType | undefined {
   if (href.startsWith("https://store.epicgames.com")) {
     return "Epic Games"
   }
+  else if (href.startsWith("https://github.com")) {
+    return "GitHub"
+  }
+  else if (href.startsWith("https://www.lexaloffle.com")) {
+    return "Lexaloffle"
+  }
   else if (href.startsWith("https://www.meta.com")) {
     return "Meta"
+  }
+  else if (href.startsWith("https://www.newgrounds.com")) {
+    return "Newgrounds"
   }
   else if (href.startsWith("https://www.nintendo.com")) {
     return "Nintendo Switch"
@@ -28,6 +37,9 @@ export function guessIconTypeFromLink(href: string): IconType | undefined {
   }
   else if (href.startsWith("https://store.steampowered.com")) {
     return "Steam"
+  }
+  else if (href.includes("itch.io")) {
+    return "itch.io"
   }
 }
 
