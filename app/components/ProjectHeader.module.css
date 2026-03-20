@@ -13,10 +13,10 @@
     >* {
       width: 100%;
     }
+  }
 
-    &.shrunk {
-      max-width: 580px;
-    }
+  &.shrink .contentAboveTitle {
+    max-width: 580px;
   }
 
   h2, .date, ul {
@@ -28,6 +28,10 @@
   h2 {
     font-size: 36pt;
     font-weight: 700;
+  }
+
+  &.shrink h2 {
+    font-size: 24pt;
   }
 
   .date {

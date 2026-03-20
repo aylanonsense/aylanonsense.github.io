@@ -15,9 +15,9 @@ export default function ProjectHeader({ title, date, releaseDate, links, shrink,
   children?: ReactNode | undefined,
 }) {
   return (
-    <div className={joinClassNames(styles.projectHeader, className)} style={style}>
+    <div className={joinClassNames(styles.projectHeader, className, shrink && styles.shrink)} style={style}>
       <h2>{title}</h2>
-      <div className={joinClassNames(styles.contentAboveTitle, shrink && styles.shrunk)}>
+      <div className={styles.contentAboveTitle}>
         {children}
       </div>
       {releaseDate ?

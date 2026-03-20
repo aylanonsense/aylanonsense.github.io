@@ -97,9 +97,17 @@ export default function Page() {
               height={240}
               pixelated={true}
             />
-            {/*
             <ProjectGridCell
-              size="medium"
+              size="tiny"
+              src="/beach-volleyball-prototype-clip.gif"
+              alt="Beach volleyball prototype"
+              href="/beach-volleyball-prototype"
+              width={75}
+              height={75}
+              pixelated={true}
+            />
+            {/* <ProjectGridCell
+              size="tiny"
               src="/agab-clip.gif"
               alt="AGAB"
               width={128}
@@ -107,7 +115,7 @@ export default function Page() {
               pixelated={true}
             />
             <ProjectGridCell
-              size="medium"
+              size="tiny"
               src="/snowball-showdown-clip.gif"
               alt="Snowball Showdown"
               width={127}
@@ -115,7 +123,7 @@ export default function Page() {
               pixelated={true}
             />
             <ProjectGridCell
-              size="medium"
+              size="tiny"
               src="/juggle-panic-clip.gif"
               alt="Juggle Panic"
               width={126}
@@ -123,7 +131,7 @@ export default function Page() {
               pixelated={true}
             />
             <ProjectGridCell
-              size="small"
+              size="tiny"
               src="/snowboarding-prototype-clip.gif"
               alt="Snowboarding prototype"
               width={128}
@@ -131,7 +139,7 @@ export default function Page() {
               pixelated={true}
             />
             <ProjectGridCell
-              size="small"
+              size="tiny"
               src="/western-prototype-clip.gif"
               alt="Western prototype"
               width={128}
@@ -139,7 +147,7 @@ export default function Page() {
               pixelated={true}
             />
             <ProjectGridCell
-              size="small"
+              size="tiny"
               src="/castle-minigames-clip.gif"
               alt="Castle minigames"
               width={192}
@@ -147,7 +155,7 @@ export default function Page() {
               pixelated={true}
             />
             <ProjectGridCell
-              size="small"
+              size="tiny"
               src="grapple-prototype-2-clip.gif"
               alt="Grapple prototype #2"
               width={75}
@@ -155,7 +163,7 @@ export default function Page() {
               pixelated={true}
             />
             <ProjectGridCell
-              size="small"
+              size="tiny"
               src="/tennis-prototype-clip.gif"
               alt="Tennis prototype"
               width={30}
@@ -163,7 +171,7 @@ export default function Page() {
               pixelated={true}
             />
             <ProjectGridCell
-              size="small"
+              size="tiny"
               src="/exact-change-clip.gif"
               alt="Exact change"
               width={70}
@@ -171,7 +179,7 @@ export default function Page() {
               pixelated={true}
             />
             <ProjectGridCell
-              size="small"
+              size="tiny"
               src="plat-fighter-prototype-clip.gif"
               alt="Plat fighter prototype"
               width={118}
@@ -179,15 +187,7 @@ export default function Page() {
               pixelated={true}
             />
             <ProjectGridCell
-              size="small"
-              src="/beevoobaa-clip.gif"
-              alt="beevoobaa"
-              width={75}
-              height={75}
-              pixelated={true}
-            />
-            <ProjectGridCell
-              size="small"
+              size="tiny"
               src="/efflorescence-clip.gif"
               alt="Efflorescence"
               width={150}
@@ -195,7 +195,7 @@ export default function Page() {
               pixelated={true}
             />
             <ProjectGridCell
-              size="small"
+              size="tiny"
               src="boss-fight-prototype-clip.gif"
               alt="Boss fight prototype"
               width={46}
@@ -203,7 +203,7 @@ export default function Page() {
               pixelated={true}
             />
             <ProjectGridCell
-              size="small"
+              size="tiny"
               src="/grapple-prototype-1-clip.gif"
               alt="Grapple prototype #1"
               width={105}
@@ -211,7 +211,7 @@ export default function Page() {
               pixelated={true}
             />
             <ProjectGridCell
-              size="small"
+              size="tiny"
               src="/mindsweeper-clip.gif"
               alt="Mindsweeper"
               width={156}
@@ -219,7 +219,7 @@ export default function Page() {
               pixelated={true}
             />
             <ProjectGridCell
-              size="small"
+              size="tiny"
               src="/minepick-platformer-prototype-clip.gif"
               alt="Minepick platformer prototype"
               width={50}
@@ -227,7 +227,7 @@ export default function Page() {
               pixelated={true}
             />
             <ProjectGridCell
-              size="small"
+              size="tiny"
               src="/nebulaic-clip.gif"
               alt="Nebulaic"
               width={125}
@@ -235,7 +235,7 @@ export default function Page() {
               pixelated={true}
             />
             <ProjectGridCell
-              size="small"
+              size="tiny"
               src="/wave-function-collapse-clip.gif"
               alt="Wave function collapse"
               width={75}
@@ -243,7 +243,7 @@ export default function Page() {
               pixelated={true}
             />
             <ProjectGridCell
-              size="small"
+              size="tiny"
               src="/time-travel-prototype-clip.gif"
               alt="Time travel prototype"
               width={50}
@@ -251,7 +251,7 @@ export default function Page() {
               pixelated={true}
             />
             <ProjectGridCell
-              size="small"
+              size="tiny"
               src="/racquet-panic-clip.gif"
               alt="Racquet Panic"
               width={72}
@@ -259,7 +259,7 @@ export default function Page() {
               pixelated={true}
             />
             <ProjectGridCell
-              size="small"
+              size="tiny"
               src="/virtual-pet-prototype-clip.gif"
               alt="Virtual pet prototype"
               width={100}
@@ -267,7 +267,7 @@ export default function Page() {
               pixelated={true}
             />
             <ProjectGridCell
-              size="small"
+              size="tiny"
               src="/train-prototype-clip.gif"
               alt="Train prototype"
               width={64}
@@ -275,7 +275,7 @@ export default function Page() {
               pixelated={true}
             />
             <ProjectGridCell
-              size="small"
+              size="tiny"
               src="/voxel-landscape-generation-clip.gif"
               alt="Voxel landscape generation"
               width={150}
@@ -283,7 +283,7 @@ export default function Page() {
               pixelated={true}
             />
             <ProjectGridCell
-              size="small"
+              size="tiny"
               src="/emoji-surgeon-thumbnail.png"
               alt="Emoji surgeon"
               width={120}
