@@ -20,4 +20,9 @@
       color: var(--highlight);
     }
   }
+
+  blockquote {
+    border-left: 4px solid var(--foreground);
+    padding-left: 20px;
+  }
 }
