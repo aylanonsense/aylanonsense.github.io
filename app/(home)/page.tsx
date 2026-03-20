@@ -45,6 +45,14 @@ export default function Page() {
               pixelated={true} />
             <ProjectGridCell
               shape="big"
+              src="/staring-clip.gif"
+              alt="staring"
+              href="/staring"
+              width={190}
+              height={190}
+              pixelated={true} />
+            {/* <ProjectGridCell
+              shape="big"
               src="/arpongi-clip.gif"
               alt="arpongi"
               width={127}
@@ -56,13 +64,6 @@ export default function Page() {
               alt="8 Legs to Love"
               width={128}
               height={128}
-              pixelated={true} />
-            <ProjectGridCell
-              shape="big"
-              src="/staring-clip.gif"
-              alt="staring"
-              width={190}
-              height={190}
               pixelated={true} />
             <ProjectGridCell
               shape="big"
@@ -251,7 +252,7 @@ export default function Page() {
               src="/emoji-surgeon-thumbnail.png"
               alt="Emoji surgeon"
               width={120}
-              height={120} />
+              height={120} /> */}
           </ProjectGrid>
         </section>
       </main>

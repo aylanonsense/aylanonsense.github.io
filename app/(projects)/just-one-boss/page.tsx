@@ -28,13 +28,13 @@ export default function Page() {
         <p>A single challenging boss fight against a magic mirror. You move about a grid dodging the boss's attacks while collecting glowing tiles to progress towards victory. As the fight continues the boss begins weaving in more challenging attacks and mechanics.</p>
         <ProjectImage
           src="/just-one-boss-clip.gif"
-          alt="A mirror throws cards and shoots lasers at a little blue character."
+          alt="A magic mirror throws cards and shoots lasers at a little blue character."
           width={128}
           height={128}
           pixelated={true} />
         <p>&quot;Just One Boss&quot; has been played millions of times across dozens of sites and even has its own <ExternalLink href="https://www.speedrun.com/just_one_boss">speedrunning community</ExternalLink>.</p>
         <ProjectImage
-          src="/just-one-boss-gameplay-3.gif"
+          src="/just-one-boss-gameplay-2.gif"
           alt="A magic mirror pounds its fist and splits into five multicolored reflections."
           width={128}
           height={128}
