@@ -1,4 +1,3 @@
-import YouTubeEmbed from "@/app/components/YouTubeEmbed"
 import ProjectHeader from "@/app/components/ProjectHeader"
 import ProjectContent from "@/app/components/ProjectContent"
 import ProjectImage from '@/app/components/ProjectImage'
@@ -12,7 +11,7 @@ export default function Page() {
         shrink={true}>
         <ProjectImage
           src="/beach-volleyball-prototype-gameplay.gif"
-          alt="Gameplay in which a mouse ricochets between tiles like a pinball"
+          alt="A pixelated volleyball player bumps a ball and then spikes it into the sand."
           width={195}
           height={141}
           pixelated={true}

@@ -106,6 +106,15 @@ export default function Page() {
               height={75}
               pixelated={true}
             />
+            <ProjectGridCell
+              size="tiny"
+              src="/western-prototype-clip.gif"
+              alt="Western prototype"
+              href="/western-prototype"
+              width={128}
+              height={128}
+              pixelated={true}
+            />
             {/* <ProjectGridCell
               size="tiny"
               src="/agab-clip.gif"
@@ -134,14 +143,6 @@ export default function Page() {
               size="tiny"
               src="/snowboarding-prototype-clip.gif"
               alt="Snowboarding prototype"
-              width={128}
-              height={128}
-              pixelated={true}
-            />
-            <ProjectGridCell
-              size="tiny"
-              src="/western-prototype-clip.gif"
-              alt="Western prototype"
               width={128}
               height={128}
               pixelated={true}
