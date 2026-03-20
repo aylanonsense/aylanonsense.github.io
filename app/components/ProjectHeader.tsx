@@ -4,12 +4,12 @@ import Icon, { guessIconTypeFromLink } from "./Icon"
 import joinClassNames from "../utils/joinClassNames"
 import styles from "./ProjectHeader.module.css"
 
-export default function ProjectHeader({ title, date, releaseDate, links, shrinkContent, className, style, children }: {
+export default function ProjectHeader({ title, date, releaseDate, links, shrink, className, style, children }: {
   title: string,
   date?: string | undefined,
   releaseDate?: string | undefined,
   links?: string[] | undefined,
-  shrinkContent?: boolean | undefined,
+  shrink?: boolean | undefined,
   className?: string | undefined,
   style?: CSSProperties | undefined,
   children?: ReactNode | undefined,
@@ -17,7 +17,7 @@ export default function ProjectHeader({ title, date, releaseDate, links, shrinkC
   return (
     <div className={joinClassNames(styles.projectHeader, className)} style={style}>
       <h2>{title}</h2>
-      <div className={joinClassNames(styles.contentAboveTitle, shrinkContent && styles.shrunk)}>
+      <div className={joinClassNames(styles.contentAboveTitle, shrink && styles.shrunk)}>
         {children}
       </div>
       {releaseDate ?

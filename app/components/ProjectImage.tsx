@@ -14,14 +14,15 @@ export default function ProjectImage({ src, alt, width, height, pixelated, unopt
   style?: CSSProperties | undefined,
 }) {
   return (
-    <Image
-      src={src}
-      alt={alt}
-      width={width}
-      height={height}
-      unoptimized={typeof(unoptimized) == "boolean" ? unoptimized : src.endsWith(".gif") || (src.endsWith(".webp") && pixelated)}
-      className={joinClassNames(styles.projectImage, pixelated && styles.pixelated, className)}
-      style={{ aspectRatio: width / height, ...style }}
-    />
+    <div className={joinClassNames(styles.projectImage, pixelated && styles.pixelated, className)} style={style}>
+      <Image
+        src={src}
+        alt={alt}
+        width={width}
+        height={height}
+        unoptimized={typeof(unoptimized) == "boolean" ? unoptimized : src.endsWith(".gif") || (src.endsWith(".webp") && pixelated)}
+        style={{ aspectRatio: width / height }}
+      />
+    </div>
   )
 }

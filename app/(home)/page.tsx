@@ -81,6 +81,15 @@ export default function Page() {
             />
             <ProjectGridCell
               size="medium"
+              src="/quickdraw-blackjack-clip.gif"
+              alt="Quickdraw Blackjack"
+              href="/quickdraw-blackjack"
+              width={190}
+              height={190}
+              pixelated={true}
+            />
+            <ProjectGridCell
+              size="medium"
               src="/reel-steal-clip.gif"
               alt="Reel Steal"
               href="/reel-steal"
@@ -89,14 +98,6 @@ export default function Page() {
               pixelated={true}
             />
             {/*
-            <ProjectGridCell
-              size="medium"
-              src="/quickdraw-blackjack-clip.gif"
-              alt="Quickdraw Blackjack"
-              width={190}
-              height={190}
-              pixelated={true}
-            />
             <ProjectGridCell
               size="medium"
               src="/agab-clip.gif"

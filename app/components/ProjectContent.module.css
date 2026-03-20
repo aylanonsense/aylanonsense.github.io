@@ -8,7 +8,7 @@
     width: 100%;
   }
 
-  p, img, iframe {
+  >* {
     margin-top: 11px;
     margin-bottom: 11px;
   }
