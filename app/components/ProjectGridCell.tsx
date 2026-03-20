@@ -5,8 +5,8 @@ import { Url } from "next/dist/shared/lib/router/router"
 import joinClassNames from "../utils/joinClassNames"
 import styles from "./ProjectGridCell.module.css"
 
-export default function ProjectGridCell({ shape, src, alt, href = undefined, width, height, pixelated = false, className, style }: {
-  shape: "big" | "medium" | "small" | "tiny",
+export default function ProjectGridCell({ size, src, alt, href = undefined, width, height, pixelated = false, className, style }: {
+  size: "big" | "medium" | "small" | "tiny",
   src: string,
   alt: string,
   href?: Url,
@@ -26,7 +26,7 @@ export default function ProjectGridCell({ shape, src, alt, href = undefined, wid
       className={pixelated ? styles.pixelated : ''}
     />
   return (
-    <li className={joinClassNames(styles.gridCell, styles[shape], className)} style={style}>
+    <li className={joinClassNames(styles.gridCell, styles[size], className)} style={style}>
       {href ? <Link href={href}>{img}</Link> : img}
     </li>
   )

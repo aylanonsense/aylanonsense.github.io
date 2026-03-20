@@ -8,23 +8,22 @@ export default function Page() {
     <>
       <ProjectHeader
         title="Staring"
-        date="August 2019"
-        shrinkContent={true}>
+        date="August 2019">
         <ProjectImage
-          src="/staring-clip.gif"
-          alt="A purple and green blob dodge laser-like stares from goopy onlookers."
-          width={190}
-          height={190}
+          src="/staring-gameplay-1.gif"
+          alt={"The title screen for \"Staring\"."}
+          width={300}
+          height={195}
           pixelated={true}
         />
       </ProjectHeader>
       <ProjectContent>
         <p>A multiplayer twin-stick shooter where you dodge the laser-like stares of goopy onlookers. &quot;Staring&quot; was commissioned as part of <ExternalLink href="https://play.nyc/">PlayNYC</ExternalLink>'s Graffiti Games and exhibited at Playcrafting 2019.</p>
         <ProjectImage
-          src="/staring-gameplay-1.gif"
-          alt={"The title screen for \"Staring\"."}
-          width={300}
-          height={195}
+          src="/staring-clip.gif"
+          alt="A purple and green blob dodge laser-like stares from goopy onlookers."
+          width={190}
+          height={190}
           pixelated={true}
         />
         <p>The exhibition included an art installation featuring hundreds of paper eyes hand-drawn by event attendees glued to amorphous shapes made of black tissue paper atop wire scaffolding.</p>
