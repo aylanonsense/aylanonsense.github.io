@@ -79,6 +79,15 @@ export default function Page() {
               height={280}
               pixelated={true}
             />
+            <ProjectGridCell
+              size="medium"
+              src="/reel-steal-clip.gif"
+              alt="Reel Steal"
+              href="/reel-steal"
+              width={240}
+              height={240}
+              pixelated={true}
+            />
             {/*
             <ProjectGridCell
               size="medium"
@@ -110,14 +119,6 @@ export default function Page() {
               alt="Juggle Panic"
               width={126}
               height={126}
-              pixelated={true}
-            />
-            <ProjectGridCell
-              size="medium"
-              src="/reel-steal-clip.gif"
-              alt="Reel Steal"
-              width={240}
-              height={240}
               pixelated={true}
             />
             <ProjectGridCell

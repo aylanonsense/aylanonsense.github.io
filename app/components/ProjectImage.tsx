@@ -19,7 +19,7 @@ export default function ProjectImage({ src, alt, width, height, pixelated, unopt
       alt={alt}
       width={width}
       height={height}
-      unoptimized={typeof(unoptimized) == "boolean" ? unoptimized : src.endsWith(".gif")}
+      unoptimized={typeof(unoptimized) == "boolean" ? unoptimized : src.endsWith(".gif") || (src.endsWith(".webp") && pixelated)}
       className={joinClassNames(styles.projectImage, pixelated && styles.pixelated, className)}
       style={{ aspectRatio: width / height, ...style }}
     />

@@ -9,7 +9,7 @@ export default function Page() {
     <>
       <ProjectHeader
         title="Just One Boss"
-        releaseDate="February 2018"
+        date="February 2018"
         links={[
           "https://aylanonsense.itch.io/just-one-boss",
           "https://www.lexaloffle.com/bbs/?pid=49234",
