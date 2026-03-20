@@ -59,14 +59,15 @@ export default function Page() {
               width={127}
               height={127}
               pixelated={true} />
-            {/*
             <ProjectGridCell
-              shape="big"
+              shape="medium"
               src="/eight-legs-to-love-clip.gif"
               alt="8 Legs to Love"
+              href="/eight-legs-to-love"
               width={128}
               height={128}
               pixelated={true} />
+            {/*
             <ProjectGridCell
               shape="big"
               src="/recommendation-dog-clip.gif"
