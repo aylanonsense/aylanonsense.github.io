@@ -51,13 +51,15 @@ export default function Page() {
               width={190}
               height={190}
               pixelated={true} />
-            {/* <ProjectGridCell
+            <ProjectGridCell
               shape="big"
               src="/arpongi-clip.gif"
               alt="arpongi"
+              href="/arpongi"
               width={127}
               height={127}
               pixelated={true} />
+            {/*
             <ProjectGridCell
               shape="big"
               src="/eight-legs-to-love-clip.gif"
