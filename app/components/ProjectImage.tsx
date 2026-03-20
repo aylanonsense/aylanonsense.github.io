@@ -1,5 +1,6 @@
-import { CSSProperties } from 'react';
-import Image from 'next/image';
+import { CSSProperties } from "react"
+import Image from "next/image"
+import joinClassNames from "../utils/joinClassNames"
 import styles from "./ProjectImage.module.css"
 
 export default function ProjectImage({ src, alt, width, height, pixelated = false, className, style }: {
@@ -11,13 +12,6 @@ export default function ProjectImage({ src, alt, width, height, pixelated = fals
   className?: string | undefined,
   style?: CSSProperties | undefined,
 }) {
-  const classNames = [styles.projectImage]
-  if (pixelated) {
-    classNames.push(styles.pixelated)
-  }
-  if (className) {
-    classNames.push(className)
-  }
   return (
     <Image
       src={src}
@@ -25,8 +19,8 @@ export default function ProjectImage({ src, alt, width, height, pixelated = fals
       width={width}
       height={height}
       unoptimized={src.endsWith(".gif")}
-      className={classNames.join(" ")}
+      className={joinClassNames(styles.projectImage, pixelated && styles.pixelated, className)}
       style={{ aspectRatio: width / height, ...style }}
     />
-  );
+  )
 }

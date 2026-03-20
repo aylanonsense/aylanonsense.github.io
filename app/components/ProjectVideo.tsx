@@ -1,5 +1,6 @@
-import { CSSProperties } from 'react';
-import YouTubeEmbed from './YouTubeEmbed';
+import { CSSProperties } from "react"
+import YouTubeEmbed from "./YouTubeEmbed"
+import joinClassNames from "../utils/joinClassNames"
 import styles from "./ProjectVideo.module.css"
 
 export default function ProjectVideo({ src, width, height, className, style }: {
@@ -9,15 +10,12 @@ export default function ProjectVideo({ src, width, height, className, style }: {
   className?: string | undefined,
   style?: CSSProperties | undefined,
 }) {
-  const classNames = [styles.projectVideo]
-  if (className) {
-    classNames.push(className)
-  }
   return (
     <YouTubeEmbed
       src={src}
       aspectRatio={width / height}
-      className={classNames.join(" ")}
-      style={style} />
-  );
+      className={joinClassNames(styles.projectVideo, className)}
+      style={style}
+    />
+  )
 }

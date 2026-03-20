@@ -1,4 +1,4 @@
-import { CSSProperties } from "react";
+import { CSSProperties } from "react"
 
 export default function YouTubeEmbed({ src, width, height, aspectRatio, className, style }: {
   src: string,
@@ -14,11 +14,11 @@ export default function YouTubeEmbed({ src, width, height, aspectRatio, classNam
       width={width}
       height={height}
       title="YouTube video player"
-      style={{ aspectRatio, border: 0, ...style }}
       className={className}
+      style={{ aspectRatio, border: 0, ...style }}
       allow="autoplay; clipboard-write; encrypted-media; picture-in-picture;"
       referrerPolicy="strict-origin-when-cross-origin"
       allowFullScreen={true}
-      />
-  );
+    />
+  )
 }

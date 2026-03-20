@@ -1,4 +1,4 @@
-import { CSSProperties } from "react";
+import { CSSProperties } from "react"
 
 export default function YouTubeEmbed({ src, className, style }: {
   src: string,
@@ -13,6 +13,6 @@ export default function YouTubeEmbed({ src, className, style }: {
       allow="autoplay"
       style={{ border: 0, overflow: "hidden", ...style }}
       src={src}
-      />
-  );
+    />
+  )
 }

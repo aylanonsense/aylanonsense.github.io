@@ -1,8 +1,8 @@
-import ProjectContent from "@/app/components/ProjectContent";
-import ProjectHeader from "@/app/components/ProjectHeader";
-import ProjectImage from "@/app/components/ProjectImage";
-import ProjectVideo from "@/app/components/ProjectVideo";
-import YouTubeEmbed from "@/app/components/YouTubeEmbed";
+import ProjectContent from "@/app/components/ProjectContent"
+import ProjectHeader from "@/app/components/ProjectHeader"
+import ProjectImage from "@/app/components/ProjectImage"
+import ProjectVideo from "@/app/components/ProjectVideo"
+import YouTubeEmbed from "@/app/components/YouTubeEmbed"
 
 export default function Page() {
   return (
@@ -38,5 +38,5 @@ export default function Page() {
           height={720} />
       </ProjectContent>
     </>
-  );
+  )
 }

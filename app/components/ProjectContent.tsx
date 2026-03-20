@@ -1,12 +1,15 @@
-import { ReactNode } from "react";
+import { CSSProperties, ReactNode } from "react"
+import joinClassNames from "../utils/joinClassNames"
 import styles from "./ProjectContent.module.css"
 
-export default function ProjectContent({ children }: {
+export default function ProjectContent({ className, style, children }: {
+  className?: string | undefined,
+  style?: CSSProperties | undefined,
   children?: ReactNode | undefined,
 }) {
   return (
-    <div className={styles.projectContent}>
+    <div className={joinClassNames(styles.projectContent, className)} style={style}>
         {children}
     </div>
-  );
+  )
 }

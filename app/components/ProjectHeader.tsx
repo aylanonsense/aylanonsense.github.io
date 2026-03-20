@@ -1,24 +1,23 @@
-import { ReactNode } from "react";
-import ExternalLink from "./ExternalLink";
-import Icon, { guessIconTypeFromLink } from "./Icon";
+import { CSSProperties, ReactNode } from "react"
+import ExternalLink from "./ExternalLink"
+import Icon, { guessIconTypeFromLink } from "./Icon"
+import joinClassNames from "../utils/joinClassNames"
 import styles from "./ProjectHeader.module.css"
 
-export default function ProjectHeader({ title, date, releaseDate, links, shrinkContent, children }: {
+export default function ProjectHeader({ title, date, releaseDate, links, shrinkContent, className, style, children }: {
   title: string,
   date?: string | undefined,
   releaseDate?: string | undefined,
   links?: string[] | undefined,
   shrinkContent?: boolean | undefined,
+  className?: string | undefined,
+  style?: CSSProperties | undefined,
   children?: ReactNode | undefined,
 }) {
-  const contentAboveTitleClassnames = [styles.contentAboveTitle]
-  if (shrinkContent) {
-    contentAboveTitleClassnames.push(styles.shrunk)
-  }
   return (
-    <div className={styles.projectHeader}>
+    <div className={joinClassNames(styles.projectHeader, className)} style={style}>
       <h2>{title}</h2>
-      <div className={contentAboveTitleClassnames.join(" ")}>
+      <div className={joinClassNames(styles.contentAboveTitle, shrinkContent && styles.shrunk)}>
         {children}
       </div>
       {releaseDate ?
@@ -41,5 +40,5 @@ export default function ProjectHeader({ title, date, releaseDate, links, shrinkC
         </ul>)
       : undefined}
     </div>
-  );
+  )
 }

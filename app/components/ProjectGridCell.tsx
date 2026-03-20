@@ -1,9 +1,11 @@
-import Image from 'next/image';
-import Link from 'next/link'
-import { Url } from 'next/dist/shared/lib/router/router';
+import { CSSProperties } from "react"
+import Image from "next/image"
+import Link from "next/link"
+import { Url } from "next/dist/shared/lib/router/router"
+import joinClassNames from "../utils/joinClassNames"
 import styles from "./ProjectGridCell.module.css"
 
-export default function ProjectGridCell({ shape, src, alt, href = undefined, width, height, pixelated = false }: {
+export default function ProjectGridCell({ shape, src, alt, href = undefined, width, height, pixelated = false, className, style }: {
   shape: "big" | "medium" | "small" | "tiny",
   src: string,
   alt: string,
@@ -11,6 +13,8 @@ export default function ProjectGridCell({ shape, src, alt, href = undefined, wid
   width: number,
   height: number,
   pixelated?: boolean,
+  className?: string | undefined,
+  style?: CSSProperties | undefined,
 }) {
   const img =
     <Image
@@ -22,8 +26,8 @@ export default function ProjectGridCell({ shape, src, alt, href = undefined, wid
       className={pixelated ? styles.pixelated : ''}
     />
   return (
-    <li className={[styles.gridCell, styles[shape]].join(" ")}>
+    <li className={joinClassNames(styles.gridCell, styles[shape], className)} style={style}>
       {href ? <Link href={href}>{img}</Link> : img}
     </li>
-  );
+  )
 }

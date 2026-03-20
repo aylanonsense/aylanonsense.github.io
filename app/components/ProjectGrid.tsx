@@ -1,12 +1,15 @@
-import { ReactNode } from 'react';
+import { CSSProperties, ReactNode } from "react"
+import joinClassNames from "../utils/joinClassNames"
 import styles from "./ProjectGrid.module.css"
 
-export default function ProjectGrid({ children }: {
-  children: ReactNode
+export default function ProjectGrid({ className, style, children }: {
+  className?: string | undefined,
+  style?: CSSProperties | undefined,
+  children: ReactNode,
 }) {
   return (
-    <ul className={styles.grid}>
+    <ul className={joinClassNames(styles.grid, className)} style={style}>
       {children}
     </ul>
-  );
+  )
 }

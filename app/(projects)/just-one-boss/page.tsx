@@ -1,8 +1,8 @@
-import ExternalLink from "@/app/components/ExternalLink";
-import ProjectContent from "@/app/components/ProjectContent";
-import ProjectHeader from "@/app/components/ProjectHeader";
-import ProjectImage from "@/app/components/ProjectImage";
-import SoundCloudEmbed from "@/app/components/SoundCloudEmbed";
+import ExternalLink from "@/app/components/ExternalLink"
+import ProjectContent from "@/app/components/ProjectContent"
+import ProjectHeader from "@/app/components/ProjectHeader"
+import ProjectImage from "@/app/components/ProjectImage"
+import SoundCloudEmbed from "@/app/components/SoundCloudEmbed"
 
 export default function Page() {
   return (
@@ -43,5 +43,5 @@ export default function Page() {
         <SoundCloudEmbed src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A558696030&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true" />
       </ProjectContent>
     </>
-  );
+  )
 }

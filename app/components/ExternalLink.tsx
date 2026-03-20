@@ -1,4 +1,4 @@
-import { CSSProperties, ReactNode } from "react";
+import { CSSProperties, ReactNode } from "react"
 
 export default function ExternalLink({ href, className, style, children }: {
   href: string,
