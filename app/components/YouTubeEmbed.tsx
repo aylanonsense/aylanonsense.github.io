@@ -18,6 +18,7 @@ export default function YouTubeEmbed({ src, width, height, aspectRatio, classNam
       className={className}
       allow="autoplay; clipboard-write; encrypted-media; picture-in-picture;"
       referrerPolicy="strict-origin-when-cross-origin"
-      allowFullScreen={true} />
+      allowFullScreen={true}
+      />
   );
 }

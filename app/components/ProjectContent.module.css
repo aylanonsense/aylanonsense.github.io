@@ -4,6 +4,10 @@
   font-size: 14pt;
   line-height: 1.3;
 
+  iframe {
+    width: 100%;
+  }
+
   p, img, iframe {
     margin-top: 11px;
     margin-bottom: 11px;
