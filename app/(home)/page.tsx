@@ -14,7 +14,7 @@ export default function Page() {
       </header>
       <main>
         <section>
-          <TitleArtGrid>
+          <TitleArtGrid className={styles.grid}>
             <TitleArtGridCell
               src="/clone-drone-in-the-hyperdome-title-art.webp"
               alt="Clone Drone in the Hyperdome"
@@ -34,7 +34,7 @@ export default function Page() {
               width={376}
               height={500} />
           </TitleArtGrid>
-          <ProjectGrid>
+          <ProjectGrid className={styles.grid}>
             <ProjectGridCell
               shape="big"
               src="/just-one-boss-clip.gif"
