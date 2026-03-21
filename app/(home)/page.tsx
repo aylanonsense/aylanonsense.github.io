@@ -1,8 +1,8 @@
 import Link from "next/link"
 import ProjectGrid from "@/app/components/ProjectGrid"
 import ProjectGridCell from "@/app/components/ProjectGridCell"
-import TitleArtGrid from "../components/TitleArtGrid"
-import TitleArtGridCell from "../components/TitleArtGridCell"
+import TitleArtGrid from "@/app/components/TitleArtGrid"
+import TitleArtGridCell from "@/app/components/TitleArtGridCell"
 import styles from "./page.module.css"
 
 export default function Page() {

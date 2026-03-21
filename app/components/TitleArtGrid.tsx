@@ -1,5 +1,5 @@
 import { CSSProperties, ReactNode } from "react"
-import joinClassNames from "../utils/joinClassNames"
+import joinClassNames from "@/app/utils/joinClassNames"
 import styles from "./TitleArtGrid.module.css"
 
 export default function TitleArtGrid({ className, style, children }: {

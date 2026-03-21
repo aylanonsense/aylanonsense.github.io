@@ -1,6 +1,6 @@
 import { CSSProperties } from "react"
 import YouTubeEmbed from "./YouTubeEmbed"
-import joinClassNames from "../utils/joinClassNames"
+import joinClassNames from "@/app/utils/joinClassNames"
 import styles from "./ProjectVideo.module.css"
 
 export default function ProjectVideo({ src, width, height, className, style }: {

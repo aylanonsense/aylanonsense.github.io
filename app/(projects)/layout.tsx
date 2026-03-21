@@ -1,5 +1,5 @@
 import Link from "next/link"
-import Icon from "../components/Icon"
+import Icon from "@/app/components/Icon"
 import styles from "./layout.module.css"
 
 export default function Layout({

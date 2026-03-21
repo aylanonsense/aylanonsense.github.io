@@ -1,6 +1,6 @@
 import { CSSProperties } from "react"
 import Image from "next/image"
-import joinClassNames from "../utils/joinClassNames"
+import joinClassNames from "@/app/utils/joinClassNames"
 import styles from "./ProjectImage.module.css"
 
 export default function ProjectImage({ src, alt, width, height, pixelated, unoptimized, className, style }: {

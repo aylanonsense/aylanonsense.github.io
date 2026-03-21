@@ -1,5 +1,5 @@
 import { CSSProperties, ReactNode } from "react"
-import joinClassNames from "../utils/joinClassNames"
+import joinClassNames from "@/app/utils/joinClassNames"
 import styles from "./ProjectGrid.module.css"
 
 export default function ProjectGrid({ className, style, children }: {

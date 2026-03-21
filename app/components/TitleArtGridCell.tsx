@@ -2,7 +2,7 @@ import { CSSProperties } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { Url } from "next/dist/shared/lib/router/router"
-import joinClassNames from "../utils/joinClassNames"
+import joinClassNames from "@/app/utils/joinClassNames"
 import styles from "./TitleArtGridCell.module.css"
 
 export default function TitleArtGridCell({ src, alt, href = undefined, width, height, pixelated = false, className, style }: {

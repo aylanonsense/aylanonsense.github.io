@@ -1,5 +1,5 @@
 import { CSSProperties, ReactNode } from "react"
-import joinClassNames from "../utils/joinClassNames"
+import joinClassNames from "@/app/utils/joinClassNames"
 import styles from "./ProjectContent.module.css"
 
 export default function ProjectContent({ className, style, children }: {

@@ -1,7 +1,7 @@
 import YouTubeEmbed from "@/app/components/YouTubeEmbed"
 import ProjectHeader from "@/app/components/ProjectHeader"
 import ProjectContent from "@/app/components/ProjectContent"
-import ProjectImage from '@/app/components/ProjectImage'
+import ProjectImage from "@/app/components/ProjectImage"
 
 export default function Page() {
   return (

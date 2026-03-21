@@ -1,7 +1,6 @@
 import ProjectHeader from "@/app/components/ProjectHeader"
 import ProjectContent from "@/app/components/ProjectContent"
-import ProjectImage from '@/app/components/ProjectImage'
-import ExternalLink from "@/app/components/ExternalLink"
+import ProjectImage from "@/app/components/ProjectImage"
 
 export default function Page() {
   return (
@@ -12,7 +11,7 @@ export default function Page() {
         shrink={true}>
         <ProjectImage
           src="/mindsweeper-gameplay-1.gif"
-          alt="Gameplay from a variety of minigames: an endless runner, a racing game, a platformer, and a basketball shooting game."
+          alt="A grid of tiles gets filled in with colored numbers."
           width={935}
           height={787}
           pixelated={true}

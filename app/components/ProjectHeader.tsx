@@ -1,7 +1,7 @@
 import { CSSProperties, ReactNode } from "react"
 import ExternalLink from "./ExternalLink"
 import Icon, { guessIconTypeFromLink } from "./Icon"
-import joinClassNames from "../utils/joinClassNames"
+import joinClassNames from "@/app/utils/joinClassNames"
 import styles from "./ProjectHeader.module.css"
 
 export default function ProjectHeader({ title, date, releaseDate, links, shrink, className, style, children }: {
