@@ -117,6 +117,15 @@ export default function Page() {
             />
             <ProjectGridCell
               size="tiny"
+              src="/castle-minigames-clip.gif"
+              alt="Castle minigames"
+              href="/castle-minigames"
+              width={192}
+              height={192}
+              pixelated={true}
+            />
+            <ProjectGridCell
+              size="tiny"
               src="/agab-clip.gif"
               alt="AGAB"
               href="/agab"
@@ -147,14 +156,6 @@ export default function Page() {
               alt="Snowboarding prototype"
               width={128}
               height={128}
-              pixelated={true}
-            />
-            <ProjectGridCell
-              size="tiny"
-              src="/castle-minigames-clip.gif"
-              alt="Castle minigames"
-              width={192}
-              height={192}
               pixelated={true}
             />
             <ProjectGridCell
