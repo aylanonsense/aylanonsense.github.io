@@ -115,14 +115,16 @@ export default function Page() {
               height={128}
               pixelated={true}
             />
-            {/* <ProjectGridCell
+            <ProjectGridCell
               size="tiny"
               src="/agab-clip.gif"
               alt="AGAB"
+              href="/agab"
               width={128}
               height={128}
               pixelated={true}
             />
+            {/*
             <ProjectGridCell
               size="tiny"
               src="/snowball-showdown-clip.gif"
