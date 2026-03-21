@@ -133,6 +133,15 @@ export default function Page() {
               height={128}
               pixelated={true}
             />
+            <ProjectGridCell
+              size="tiny"
+              src="/virtual-pet-prototype-clip.gif"
+              alt="Virtual pet prototype"
+              href="/virtual-pet-prototype"
+              width={100}
+              height={100}
+              pixelated={true}
+            />
             {/*
             <ProjectGridCell
               size="tiny"
@@ -260,14 +269,6 @@ export default function Page() {
               alt="Racquet Panic"
               width={72}
               height={72}
-              pixelated={true}
-            />
-            <ProjectGridCell
-              size="tiny"
-              src="/virtual-pet-prototype-clip.gif"
-              alt="Virtual pet prototype"
-              width={100}
-              height={100}
               pixelated={true}
             />
             <ProjectGridCell

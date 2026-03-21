@@ -9,14 +9,10 @@ export default function Page() {
       <ProjectHeader
         title="Castle minigames"
         date="August 2019"
-        links={[
-          "https://aylanonsense.itch.io/agab",
-          "https://github.com/aylanonsense/agab",
-        ]}
         shrink={true}>
         <ProjectImage
           src="/castle-minigames-clip.gif"
-          alt="A squishy green blob collects tomatoes to turn red."
+          alt="Gameplay from a variety of minigames: an endless runner, a racing game, a platformer, and a basketball shooting game."
           width={192}
           height={192}
           pixelated={true}
