@@ -135,6 +135,15 @@ export default function Page() {
             />
             <ProjectGridCell
               size="tiny"
+              src="/mindsweeper-clip.gif"
+              alt="Mindsweeper"
+              href="/mindsweeper"
+              width={156}
+              height={156}
+              pixelated={true}
+            />
+            <ProjectGridCell
+              size="tiny"
               src="/virtual-pet-prototype-clip.gif"
               alt="Virtual pet prototype"
               href="/virtual-pet-prototype"
@@ -221,14 +230,6 @@ export default function Page() {
               alt="Grapple prototype #1"
               width={105}
               height={105}
-              pixelated={true}
-            />
-            <ProjectGridCell
-              size="tiny"
-              src="/mindsweeper-clip.gif"
-              alt="Mindsweeper"
-              width={156}
-              height={156}
               pixelated={true}
             />
             <ProjectGridCell
