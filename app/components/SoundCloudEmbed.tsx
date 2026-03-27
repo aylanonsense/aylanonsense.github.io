@@ -1,17 +1,19 @@
 import { CSSProperties } from "react"
+import joinClassNames from "../utils/joinClassNames"
+import styles from "./SoundCloudEmbed.module.css"
 
-export default function YouTubeEmbed({ src, className, style }: {
+export default function SoundCloudEmbed({ src, className, style }: {
   src: string,
   className?: string | undefined,
   style?: CSSProperties | undefined,
 }) {
   return (
     <iframe
-      className={className}
+      className={joinClassNames(styles.soundCloudEmbed, className)}
       width={400}
       height={150}
       allow="autoplay"
-      style={{ border: 0, overflow: "hidden", ...style }}
+      style={style}
       src={src}
     />
   )

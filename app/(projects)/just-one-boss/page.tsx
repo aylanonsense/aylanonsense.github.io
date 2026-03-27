@@ -41,7 +41,7 @@ export default function Page() {
           height={128}
           pixelated={true}
         />
-        <p>I developed the game over three months, during which I taught myself music theory to compose the game's chiptune tracks.</p>
+        <p>I developed the game over three months, during which I taught myself basic music theory to compose the game's chiptune tracks.</p>
         <SoundCloudEmbed src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A558696030&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true" />
       </ProjectContent>
     </>

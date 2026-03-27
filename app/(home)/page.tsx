@@ -97,7 +97,7 @@ export default function Page() {
               height={240}
               pixelated={true}
             />
-            <ProjectGridCell
+            {/* <ProjectGridCell
               size="tiny"
               src="/beach-volleyball-prototype-clip.gif"
               alt="Beach volleyball prototype"
@@ -150,7 +150,7 @@ export default function Page() {
               width={100}
               height={100}
               pixelated={true}
-            />
+            /> */}
             {/*
             <ProjectGridCell
               size="tiny"
