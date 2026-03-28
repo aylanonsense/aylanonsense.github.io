@@ -9,14 +9,13 @@ export default function Page() {
       <ProjectHeader
         title="Castle minigames"
         date="August 2019"
-        shrink={true}>
+        compact={true}>
         <ProjectImage
           src="/castle-minigames-clip.gif"
           alt="Gameplay from a variety of minigames: an endless runner, a racing game, a platformer, and a basketball shooting game."
           width={192}
           height={192}
-          pixelated={true}
-        />
+          pixelated={true} />
       </ProjectHeader>
       <ProjectContent>
         <p>I was commissioned to develop a dozen small minigames for the <ExternalLink href="https://castle.xyz/">Castle game platform</ExternalLink> to serve as a starting point for beginner game devs. Among them were a top-down racing game, a platformer, a boids flocking simulator, an endless runner, and an asteroids clone.</p>

@@ -1,10 +1,16 @@
 import type { Metadata } from "next"
-import { Raleway } from "next/font/google"
-import styles from "./layout.module.css"
+import { Aleo, Raleway } from "next/font/google"
+import joinClassNames from "@/app/utils/joinClassNames"
 import "./globals.css"
+import styles from "./layout.module.css"
 
-const font = Raleway({
+const defaultFont = Aleo({
   variable: "--font",
+  subsets: ["latin"]
+})
+
+const headingFont = Raleway({
+  variable: "--heading-font",
   subsets: ["latin"],
 })
 
@@ -20,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={font.variable}>
+      <body className={joinClassNames(defaultFont.variable, headingFont.variable)}>
         <div className={styles.layout}>
           {children}
         </div>

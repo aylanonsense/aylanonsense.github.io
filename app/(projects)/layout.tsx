@@ -9,11 +9,11 @@ export default function Layout({
 }>) {
   return (
     <div className={styles.layout}>
-      <SiteHeader compact={true} />
+      {/* <SiteHeader compact={true} /> */}
       <main>
         <div className={styles.content}>
           {children}
-          <p className={styles.backLink}><Link href="/">Back</Link></p>
+          {/* <p className={styles.backLink}><Link href="/">Back</Link></p> */}
         </div>
       </main>
     </div>

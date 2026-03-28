@@ -4,22 +4,22 @@ import Icon, { guessIconTypeFromLink } from "@/app/components/Icon"
 import joinClassNames from "@/app/utils/joinClassNames"
 import styles from "./ProjectHeader.module.css"
 
-export default function ProjectHeader({ title, date, releaseDate, links, shrink, className, style, children }: {
+export default function ProjectHeader({ title, date, releaseDate, links, compact, className, style, children }: {
   title: string,
   date?: string | undefined,
   releaseDate?: string | undefined,
   links?: string[] | undefined,
-  shrink?: boolean | undefined,
+  compact?: boolean | undefined,
   className?: string | undefined,
   style?: CSSProperties | undefined,
   children?: ReactNode | undefined,
 }) {
   return (
-    <div className={joinClassNames(styles.projectHeader, className, shrink && styles.shrink)} style={style}>
+    <div className={joinClassNames(styles.projectHeader, className, compact && styles.compact)} style={style}>
       <h2>{title}</h2>
-      <div className={styles.contentAboveTitle}>
+      {/* <div className={styles.contentAboveTitle}>
         {children}
-      </div>
+      </div> */}
       {releaseDate ?
         (<p className={styles.date}>Released {releaseDate}</p>)
         : (date ? (<p className={styles.date}>{date}</p>) : undefined)}
@@ -31,7 +31,7 @@ export default function ProjectHeader({ title, date, releaseDate, links, shrink,
               return (
                 <li key={href}>
                   <ExternalLink href={href}>
-                    <Icon icon={icon} width={25} height={25} />
+                    <Icon icon={icon} width="1.25em" height="1.25em" />
                   </ExternalLink>
                 </li>
               )

@@ -16,8 +16,7 @@ export default function Page() {
           alt="TODO"
           width={1600}
           height={960}
-          pixelated={true}
-        />
+          pixelated={true} />
       </ProjectHeader>
       <ProjectContent>
         <p>Play as a pair of thieves who perform heists using comically large fishing hooks and an excessive number of fishing puns.</p>
@@ -26,22 +25,19 @@ export default function Page() {
           alt="TODO"
           width={400}
           height={240}
-          pixelated={true}
-        />
+          pixelated={true} />
         <ProjectImage
           src="/reel-steal-screenshot-2.webp"
           alt="TODO"
           width={400}
           height={240}
-          pixelated={true}
-        />
+          pixelated={true} />
         <ProjectImage
           src="/reel-steal-screenshot-3.webp"
           alt="TODO"
           width={400}
           height={240}
-          pixelated={true}
-        />
+          pixelated={true} />
       </ProjectContent>
     </>
   )

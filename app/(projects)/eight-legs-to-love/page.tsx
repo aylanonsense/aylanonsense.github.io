@@ -19,8 +19,7 @@ export default function Page() {
           alt={"A spider hangs beneath \"8 Legs to Love\" spelled out in silky letters, with blinking \"Press Z to start\" text below."}
           width={128}
           height={128}
-          pixelated={true}
-        />
+          pixelated={true} />
       </ProjectHeader>
       <ProjectContent>
         <p>An arcade game where you play as a spider constructing a web and eating bugs for points. Each level poses a unique challenge.</p>
@@ -29,16 +28,14 @@ export default function Page() {
           alt="A spider constructs a web between the moving girders of a construction site."
           width={128}
           height={128}
-          pixelated={true}
-        />
+          pixelated={true} />
         <p>The webs are chains of particles that follow a modified Hooke's Law, including mechanical failure from over-extension.</p>
         <ProjectImage
           src="/eight-legs-to-love-gameplay-3.gif"
           alt="A massive spider coats the earth and the moon in its web."
           width={128}
           height={128}
-          pixelated={true}
-        />
+          pixelated={true} />
       </ProjectContent>
     </>
   )

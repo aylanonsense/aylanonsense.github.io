@@ -8,14 +8,13 @@ export default function Page() {
       <ProjectHeader
         title="Mindsweeper"
         date="January 2005"
-        shrink={true}>
+        compact={true}>
         <ProjectImage
           src="/mindsweeper-gameplay-1.gif"
           alt="A grid of tiles gets filled in with colored numbers."
           width={935}
           height={787}
-          pixelated={true}
-        />
+          pixelated={true} />
       </ProjectHeader>
       <ProjectContent>
         <p>The first game I was ever commissioned to make. Made for an old Flash site that's now defunct. It was like Minesweeper but worse.</p>

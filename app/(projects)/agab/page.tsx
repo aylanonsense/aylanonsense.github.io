@@ -13,14 +13,13 @@ export default function Page() {
           "https://aylanonsense.itch.io/agab",
           "https://github.com/aylanonsense/agab",
         ]}
-        shrink={true}>
+        compact={true}>
         <ProjectImage
           src="/agab-gameplay-1.gif"
           alt="A squishy green blob collects tomatoes to turn red."
           width={128}
           height={128}
-          pixelated={true}
-        />
+          pixelated={true} />
       </ProjectHeader>
       <ProjectContent>
         <p>A short game where you gobble up tomatoes. Your jump arc is fixed but you have the ability to stick to walls and ceilings. Developed for a weekend-long <ExternalLink href="https://itch.io/jam/slime-studio-jam">Slime Jam</ExternalLink>.</p>

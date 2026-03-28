@@ -14,7 +14,6 @@ export default function SoundCloudEmbed({ src, className, style }: {
       height={150}
       allow="autoplay"
       style={style}
-      src={src}
-    />
+      src={src} />
   )
 }

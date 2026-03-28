@@ -1,4 +1,25 @@
 .projectContent {
+  max-width: 50ch;
+  margin-block: 1lh;
+  margin-inline: auto;
+
+  >* {
+    margin-block: 1lh;
+
+    &:first-child { margin-block-start: 0; }
+    &:last-child { margin-block-end: 0; }
+  }
+
+  a {
+    text-decoration: underline;
+
+    &:hover {
+      color: var(--highlight);
+    }
+  }
+}
+
+/* .projectContent {
   margin: 0 auto;
   max-width: 580px;
   font-size: 14pt;
@@ -13,16 +34,8 @@
     margin-bottom: 25px;
   }
 
-  a {
-    text-decoration: underline;
-
-    &:hover {
-      color: var(--highlight);
-    }
-  }
-
   blockquote {
     border-left: 4px solid var(--foreground);
     padding-left: 20px;
   }
-}
+} */

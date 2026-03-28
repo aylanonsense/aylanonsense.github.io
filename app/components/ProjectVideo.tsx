@@ -15,7 +15,6 @@ export default function ProjectVideo({ src, width, height, className, style }: {
       src={src}
       aspectRatio={width / height}
       className={joinClassNames(styles.projectVideo, className)}
-      style={style}
-    />
+      style={style} />
   )
 }

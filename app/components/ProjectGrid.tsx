@@ -36,8 +36,7 @@ export function ProjectGridCell({ size, src, alt, href, width, height, pixelated
       height={height}
       style={{ aspectRatio: width / height }}
       unoptimized={src.endsWith(".gif")}
-      className={pixelated ? styles.pixelated : ''}
-    />
+      className={pixelated ? styles.pixelated : ''} />
   return (
     <li className={joinClassNames(styles.cell, styles[size], className)} style={style}>
       {href ? <Link href={href} style={{ aspectRatio: width / height }}>{img}</Link> : img}

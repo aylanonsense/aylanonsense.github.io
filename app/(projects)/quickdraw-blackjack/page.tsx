@@ -17,8 +17,7 @@ export default function Page() {
           alt={"Cards are thrown up and shot in quick order and the combined total is tallied to be 21. \"Blackjack!\" appears."}
           width={190}
           height={190}
-          pixelated={true}
-        />
+          pixelated={true} />
       </ProjectHeader>
       <ProjectContent>
         <p>A small mobile created made for the <ExternalLink href="https://castle.xyz/">Castle</ExternalLink> game platform. Given a hand of playing cards, you shoot cards thrown into the air in the hopes of forming a winning blackjack hand.</p>
@@ -27,15 +26,13 @@ export default function Page() {
           alt={"A wooden board engraved with the words \"Quickdraw Blackjack\" appears above a sheriff's star that reads \"Play\"."}
           width={250}
           height={440}
-          pixelated={true}
-        />
+          pixelated={true} />
         <ProjectImage
           src="/quickdraw-blackjack-gameplay-2.gif"
           alt={"Cards are thrown up and shot in quick order and the combined total is tallied to be 18. \"Miss!\" appears."}
           width={250}
           height={440}
-          pixelated={true}
-        />
+          pixelated={true} />
       </ProjectContent>
     </>
   )

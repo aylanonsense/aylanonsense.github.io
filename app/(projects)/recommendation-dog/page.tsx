@@ -16,8 +16,7 @@ export default function Page() {
           alt="TODO"
           width={400}
           height={240}
-          pixelated={true}
-        />
+          pixelated={true} />
       </ProjectHeader>
       <ProjectContent>
         <p>A puzzle game where you are a dog with a rolodex in charge of recommending people for absurd jobs. Good boy!</p>
@@ -26,15 +25,13 @@ export default function Page() {
           alt="TODO"
           width={400}
           height={240}
-          pixelated={true}
-        />
+          pixelated={true} />
         <ProjectImage
           src="/recommendation-dog-gameplay-1.gif"
           alt="TODO"
           width={280}
           height={280}
-          pixelated={true}
-        />
+          pixelated={true} />
       </ProjectContent>
     </>
   )
