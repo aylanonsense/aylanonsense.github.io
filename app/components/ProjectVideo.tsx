@@ -1,5 +1,5 @@
 import { CSSProperties } from "react"
-import YouTubeEmbed from "./YouTubeEmbed"
+import YouTubeEmbed from "@/app/components/YouTubeEmbed"
 import joinClassNames from "@/app/utils/joinClassNames"
 import styles from "./ProjectVideo.module.css"
 

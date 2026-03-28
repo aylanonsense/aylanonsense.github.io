@@ -1,5 +1,5 @@
 import Link from "next/link"
-import Icon from "@/app/components/Icon"
+import SiteHeader from "@/app/components/SiteHeader"
 import styles from "./layout.module.css"
 
 export default function Layout({
@@ -9,13 +9,7 @@ export default function Layout({
 }>) {
   return (
     <div className={styles.layout}>
-      <header>
-        <h1><Link href="/">ayla~nonsense</Link></h1>
-        <ul>
-          <li><a href="https://aylanonsense.itch.io/" target="_blank" rel="noopener noreferrer"><Icon icon="itch.io" width={24} height={24} /></a></li>
-          <li><a href="https://github.com/aylanonsense" target="_blank" rel="noopener noreferrer"><Icon icon="GitHub" width={24} height={24} /></a></li>
-        </ul>
-      </header>
+      <SiteHeader compact={true} />
       <main>
         <div className={styles.content}>
           {children}

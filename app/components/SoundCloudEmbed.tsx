@@ -1,5 +1,5 @@
 import { CSSProperties } from "react"
-import joinClassNames from "../utils/joinClassNames"
+import joinClassNames from "@/app/utils/joinClassNames"
 import styles from "./SoundCloudEmbed.module.css"
 
 export default function SoundCloudEmbed({ src, className, style }: {

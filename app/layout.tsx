@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import { Raleway } from "next/font/google"
+import styles from "./layout.module.css"
 import "./globals.css"
 
 const font = Raleway({
@@ -20,7 +21,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={font.variable}>
-        {children}
+        <div className={styles.layout}>
+          {children}
+        </div>
       </body>
     </html>
   )

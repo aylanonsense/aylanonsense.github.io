@@ -1,0 +1,95 @@
+.siteHeader {
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25em;
+    font-weight: 400;
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 0.125em;
+
+      li a svg {
+        position: relative;
+        top: 0.05em;
+      }
+
+      li a:hover svg {
+        fill: var(--highlight);
+      }
+    }
+  }
+
+  &.full {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.55rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    h1 {
+      font-size: 4rem;
+      font-weight: 700;
+    }
+  }
+
+  &.compact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    h1 {
+      font-weight: 600;
+
+      &:hover {
+        color: var(--highlight);
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 926px) {
+  .siteHeader.full {
+    font-size: 1.3rem;
+
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 626px) {
+  .siteHeader.full {
+    font-size: 1.2rem;
+
+    h1 {
+      font-size: 2.3rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .siteHeader.full {
+    font-size: 1rem;
+
+    h1 {
+      font-size: 1.8rem;
+    }
+  }
+
+  .siteHeader.compact {
+    font-size: 1.2rem;
+  }
+}

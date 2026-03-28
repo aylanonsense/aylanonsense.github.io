@@ -1,6 +1,6 @@
 import { CSSProperties, ReactNode } from "react"
-import ExternalLink from "./ExternalLink"
-import Icon, { guessIconTypeFromLink } from "./Icon"
+import ExternalLink from "@/app/components/ExternalLink"
+import Icon, { guessIconTypeFromLink } from "@/app/components/Icon"
 import joinClassNames from "@/app/utils/joinClassNames"
 import styles from "./ProjectHeader.module.css"
 

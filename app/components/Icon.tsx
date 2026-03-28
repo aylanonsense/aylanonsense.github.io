@@ -5,14 +5,6 @@ export type IconType = "Epic Games" | "Facebook" | "Game Jolt" | "GitHub"
   | "Newgrounds" | "Nintendo Switch" | "Play" | "Playdate" | "Resume"
   | "Steam" | "Tumblr" | "Twitch" | "YouTube"
 
-export type IconParameters = {
-  icon: IconType,
-  width: number,
-  height: number,
-  className?: string | undefined,
-  style?: CSSProperties | undefined,
-}
-
 export function guessIconTypeFromLink(href: string): IconType | undefined {
   if (href.startsWith("https://store.epicgames.com")) {
     return "Epic Games"
@@ -43,7 +35,13 @@ export function guessIconTypeFromLink(href: string): IconType | undefined {
   }
 }
 
-export default function Icon({ icon, width, height, className, style }: IconParameters) {
+export default function Icon({ icon, width, height, className, style }: {
+  icon: IconType,
+  width?: number | string | undefined,
+  height?: number | string | undefined,
+  className?: string | undefined,
+  style?: CSSProperties | undefined,
+}) {
   switch (icon) {
     case "Epic Games":
       return (

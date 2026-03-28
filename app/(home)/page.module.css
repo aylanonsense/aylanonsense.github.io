@@ -1,17 +1,8 @@
-/* Structure */
-.page {
+/* .page {
   max-width: 1144px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
-
-  header {
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
 }
 
 .grid {
@@ -72,19 +63,4 @@
     margin-top: 2px;
     margin-bottom: 2px;
   }
-}
-
-
-/* Fonts */
-.page {
-  header {
-    h1 {
-      font-size: 50pt;
-      font-weight: 700;
-    }
-
-    p {
-      font-size: 18pt;
-    }
-  }
-}
+} */
