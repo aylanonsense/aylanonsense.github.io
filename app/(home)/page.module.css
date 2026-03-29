@@ -1,0 +1,16 @@
+.page {
+  p {
+    max-width: 508px;
+    margin-inline: auto;
+    margin-block-start: 3lh;
+    margin-block-end: 5lh;
+
+    a {
+      text-decoration: underline;
+
+      &:hover {
+        color: var(--highlight);
+      }
+    }
+  }
+}
