@@ -15,8 +15,8 @@ export default function Page() {
           width={475}
           height={325} />
       </ProjectHeader>
-      <ProjectContent>
-        <p>One of the very first games I ever made. A little virtual pet game where you cared for your pet blob.</p>
+      <ProjectContent compact={true}>
+        <p>One of the very first games I ever made. A little virtual pet game where you fed and cared for your pet blob.</p>
       </ProjectContent>
     </>
   )

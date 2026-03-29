@@ -17,20 +17,20 @@ export default function Page() {
           pixelated={true} />
       </ProjectHeader>
       <ProjectContent>
-        <p>A multiplayer twin-stick shooter where you dodge the laser-like stares of goopy onlookers. &quot;Staring&quot; was commissioned as part of <ExternalLink href="https://play.nyc/">PlayNYC</ExternalLink>'s Graffiti Games and exhibited at Playcrafting 2019.</p>
+        <p>A multiplayer twin-stick shooter about dodging the laser-like stares of goopy onlookers. &quot;Staring&quot; was commissioned as part of <ExternalLink href="https://play.nyc/">PlayNYC</ExternalLink>'s Graffiti Games and exhibited at Playcrafting 2019.</p>
         <ProjectImage
           src="/staring-clip.gif"
           alt="A purple and green blob dodge laser-like stares from goopy onlookers."
           width={190}
           height={190}
           pixelated={true} />
-        <p>The exhibition included an art installation featuring hundreds of paper eyes hand-drawn by event attendees glued to amorphous shapes made of black tissue paper atop wire scaffolding.</p>
+        <p>The exhibition included an art installation featuring hundreds of paper eyes hand-drawn by event attendees glued to amorphous shapes made of black tissue paper and wire.</p>
         <ProjectImage
           src="/staring-photo.webp"
           alt="An event booth decorated with hand-drawn eyeballs."
           width={1599}
           height={1125} />
-        <p>From <ExternalLink href="https://techraptor.net/gaming/features/play-nycs-graffiti-games-celebrated-lgbtq-experiences-and-they-were-pretty-darn-fun">TechRaptor's Robert Grosso</ExternalLink>:</p>
+        <p><ExternalLink href="https://techraptor.net/gaming/features/play-nycs-graffiti-games-celebrated-lgbtq-experiences-and-they-were-pretty-darn-fun">TechRaptor's Robert Grosso</ExternalLink> wrote about the game:</p>
         <blockquote cite="https://techraptor.net/gaming/features/play-nycs-graffiti-games-celebrated-lgbtq-experiences-and-they-were-pretty-darn-fun">
           <p>&quot;Staring is the type of game Graffiti Games is meant to be. Solely from the perspective of its lone developer, Myers gives us a little taste of what she personally has gone through but finds a way to twist it into something positive.&quot;</p>
         </blockquote>

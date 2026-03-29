@@ -16,7 +16,7 @@ export default function Page() {
           height={128}
           pixelated={true} />
       </ProjectHeader>
-      <ProjectContent>
+      <ProjectContent compact={true}>
         <p>A series of duels between a swordsman and a group of armed bandits. Each screen features a unique challenge. I dropped the project because it didn't feel like there was enough design space, but I like the bit of lighting/shadow code I wrote for it.</p>
       </ProjectContent>
     </>

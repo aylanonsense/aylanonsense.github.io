@@ -4,7 +4,7 @@
     color: var(--faded);
     text-align: center;
 
-    &:hover {
+    a:hover {
       color: var(--highlight);
     }
   }

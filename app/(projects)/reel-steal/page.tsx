@@ -13,7 +13,7 @@ export default function Page() {
         ]}>
         <ProjectImage
           src="/reel-steal-title-art.webp"
-          alt="TODO"
+          alt={"A villainous figure with a fishing hook stands alongside the text \"Reel Steal\"."}
           width={1600}
           height={960}
           pixelated={true} />
@@ -22,19 +22,19 @@ export default function Page() {
         <p>Play as a pair of thieves who perform heists using comically large fishing hooks and an excessive number of fishing puns.</p>
         <ProjectImage
           src="/reel-steal-screenshot-1.webp"
-          alt="TODO"
+          alt={"A shawowy figure named \"Angler\" say \"Welcome to the Crook, Line and Sinker, your friendly bait shop and home base here at the Kill-de-Sac.\""}
           width={400}
           height={240}
           pixelated={true} />
         <ProjectImage
           src="/reel-steal-screenshot-2.webp"
-          alt="TODO"
+          alt={"A map of various expensive-looky locations in \"The Kill-De-Sac\"."}
           width={400}
           height={240}
           pixelated={true} />
         <ProjectImage
           src="/reel-steal-screenshot-3.webp"
-          alt="TODO"
+          alt="A small character suspended on a fishing hook navigates some platforms."
           width={400}
           height={240}
           pixelated={true} />

@@ -17,8 +17,8 @@ export default function Page() {
           height={192}
           pixelated={true} />
       </ProjectHeader>
-      <ProjectContent>
-        <p>I was commissioned to develop a dozen small minigames for the <ExternalLink href="https://castle.xyz/">Castle game platform</ExternalLink> to serve as a starting point for beginner game devs. Among them were a top-down racing game, a platformer, a boids flocking simulator, an endless runner, and an asteroids clone.</p>
+      <ProjectContent compact={true}>
+        <p>I was commissioned to develop a dozen small minigames for the <ExternalLink href="https://castle.xyz/">Castle game platform</ExternalLink> to serve as a starting point for beginner game devs. There was a top-down racing game, a platformer, a boids flocking simulation, an endless runner, and an asteroids clone among others.</p>
       </ProjectContent>
     </>
   )

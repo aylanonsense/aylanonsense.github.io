@@ -16,8 +16,8 @@ export default function Page() {
           height={141}
           pixelated={true} />
       </ProjectHeader>
-      <ProjectContent>
-        <p>An online multiplayer beach volleyball game with moon gravity. This was just an excuse to learn network programming&mdash;I built my own netcode and implemented basic rollback. It was hosted on my site for a long time, but not anymore.</p>
+      <ProjectContent compact={true}>
+        <p>An online multiplayer beach volleyball game with moon gravity. This was just an excuse to learn network programming; I built my own netcode and implemented basic rollback. It was hosted on my site for a long time, but not anymore.</p>
       </ProjectContent>
     </>
   )

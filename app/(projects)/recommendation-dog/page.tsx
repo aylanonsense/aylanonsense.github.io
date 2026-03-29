@@ -13,7 +13,7 @@ export default function Page() {
         ]}>
         <ProjectImage
           src="/recommendation-dog-title-art.webp"
-          alt="TODO"
+          alt={"A dog leaps over a desk past the text \"Recommendation Dog!!\""}
           width={400}
           height={240}
           pixelated={true} />
@@ -22,13 +22,13 @@ export default function Page() {
         <p>A puzzle game where you are a dog with a rolodex in charge of recommending people for absurd jobs. Good boy!</p>
         <ProjectImage
           src="/recommendation-dog-screenshot-1.webp"
-          alt="TODO"
+          alt={"A silhouetted figure in a doorway requests, \"My house is FLOODING! Get me a CHARISMATIC PLUMBER, quick!!\""}
           width={400}
           height={240}
           pixelated={true} />
         <ProjectImage
           src="/recommendation-dog-gameplay-1.gif"
-          alt="TODO"
+          alt="A rotary organizer flips through people with a variety of occupations and stats."
           width={280}
           height={280}
           pixelated={true} />

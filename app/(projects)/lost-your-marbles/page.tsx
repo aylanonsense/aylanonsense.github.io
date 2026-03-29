@@ -27,7 +27,7 @@ export default function Page() {
           width={400}
           height={240}
           pixelated={true} />
-        <p>&quot;Lost Your Marbles&quot; was developed exclusively for <ExternalLink href="https://play.date/games/season-one/">Playdate Season One</ExternalLink> and received praise for its fantastical world and branching narrative.</p>
+        <p>Released in <ExternalLink href="https://play.date/games/season-one/">Playdate Season One</ExternalLink>, Lost Your Marbles received praise for its fantastical world and branching narrative.</p>
         <ProjectImage
           src="/lost-your-marbles-gameplay-2.gif"
           alt={"A character named \"Prota\" shares a conversation with a sunglass-wearing cactus named \"Spiky Jon\"."}

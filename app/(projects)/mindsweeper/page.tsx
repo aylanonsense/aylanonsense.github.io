@@ -16,8 +16,8 @@ export default function Page() {
           height={787}
           pixelated={true} />
       </ProjectHeader>
-      <ProjectContent>
-        <p>The first game I was ever commissioned to make. Made for an old Flash site that's now defunct. It was like Minesweeper but worse.</p>
+      <ProjectContent compact={true}>
+        <p>The first game I was ever commissioned to make. For an old Flash site that's now defunct. It's like Minesweeper but worse.</p>
       </ProjectContent>
     </>
   )

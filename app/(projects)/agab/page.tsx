@@ -21,7 +21,7 @@ export default function Page() {
           height={128}
           pixelated={true} />
       </ProjectHeader>
-      <ProjectContent>
+      <ProjectContent compact={true}>
         <p>A short game where you gobble up tomatoes. Your jump arc is fixed but you have the ability to stick to walls and ceilings. Developed for a weekend-long <ExternalLink href="https://itch.io/jam/slime-studio-jam">Slime Jam</ExternalLink>.</p>
       </ProjectContent>
     </>
