@@ -14,9 +14,9 @@ export default function Page() {
           "https://store.steampowered.com/app/2401230/Clone_Drone_in_the_Hyperdome/",
           "https://www.meta.com/experiences/clone-drone-in-the-hyperdome/4523126804481573/",
         ]}>
-        {/* <YouTubeEmbed
+        <YouTubeEmbed
           src="https://www.youtube-nocookie.com/embed/Lak9cQqVsrM?si=XFuV7R1CJdw9pcjK"
-          aspectRatio={560 / 315} /> */}
+          aspectRatio={560 / 315} />
       </ProjectHeader>
       <ProjectContent>
         <p>A virtual reality laser sword fighting game with full voxel destruction and physics-based combat. Compete in runs of the Crashloop to gain powerful Turbofists in the hopes of eventually defeating the evil Captain in the Hyperdome itself!</p>

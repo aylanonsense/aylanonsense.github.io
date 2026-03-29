@@ -17,9 +17,9 @@ export default function ProjectHeader({ title, date, releaseDate, links, compact
   return (
     <div className={joinClassNames(styles.projectHeader, className, compact && styles.compact)} style={style}>
       <h2>{title}</h2>
-      {/* <div className={styles.contentAboveTitle}>
+      <div className={styles.media}>
         {children}
-      </div> */}
+      </div>
       {releaseDate ?
         (<p className={styles.date}>Released {releaseDate}</p>)
         : (date ? (<p className={styles.date}>{date}</p>) : undefined)}

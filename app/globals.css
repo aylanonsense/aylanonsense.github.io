@@ -33,11 +33,12 @@ table {
 }
 
 
-/* Color scheme */
+/* Colors */
 :root {
   --background: #161311;
   --foreground: #f8f6f4;
   --highlight: #ff499e;
+  --faded: #555351;
 }
 
 html, body {

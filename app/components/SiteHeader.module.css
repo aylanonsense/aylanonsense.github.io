@@ -2,27 +2,17 @@
   font-family: var(--heading-font);
 
   div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 0.25em;
-    font-weight: 400;
-
     ul {
       display: flex;
       flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      gap: 0.125em;
+      gap: 0.25em;
 
-      li a svg {
-        position: relative;
-        top: 0.05em;
-      }
-
-      li a:hover svg {
-        fill: var(--highlight);
+      li {
+        a {
+          &:hover {
+            fill: var(--highlight);
+          }
+        }
       }
     }
   }
@@ -30,15 +20,21 @@
   &.full {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    font-size: 1.55rem;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-block: 1.5lh;
 
     h1 {
       font-size: 4rem;
       font-weight: 700;
+    }
+
+    div {
+      display: flex;
+      flex-direction: row;
+      gap: 0.25em;
     }
   }
 
@@ -46,10 +42,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    font-size: 1.4rem;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    font-size: 1.375rem;
+    margin-block: 0.5lh;
 
     h1 {
       font-weight: 600;
@@ -58,13 +52,22 @@
         color: var(--highlight);
       }
     }
+
+    div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      
+      ul li a {
+        display: flex;
+      }
+    }
   }
 }
 
-
 @media only screen and (max-width: 926px) {
   .siteHeader.full {
-    font-size: 1.3rem;
+    font-size: 1.375rem;
 
     h1 {
       font-size: 3rem;
@@ -72,26 +75,13 @@
   }
 }
 
-@media only screen and (max-width: 626px) {
+
+@media only screen and (max-width: 395px) {
   .siteHeader.full {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
 
     h1 {
-      font-size: 2.3rem;
+      font-size: 2.375rem;
     }
-  }
-}
-
-@media only screen and (max-width: 300px) {
-  .siteHeader.full {
-    font-size: 1rem;
-
-    h1 {
-      font-size: 1.8rem;
-    }
-  }
-
-  .siteHeader.compact {
-    font-size: 1.2rem;
   }
 }

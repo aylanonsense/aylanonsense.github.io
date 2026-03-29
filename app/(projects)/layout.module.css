@@ -1,20 +1,11 @@
-/* .layout {
-  max-width: 1144px;
-  margin: 15px auto 40px auto;
-
-  main {
-    max-width: 850px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
+.layout {
   .backLink {
-    margin-top: 20px;
-    color: var(--highlight);
+    margin-top: 1lh;
+    color: var(--faded);
     text-align: center;
 
     &:hover {
-      text-decoration: underline;
+      color: var(--highlight);
     }
   }
-} */
+}

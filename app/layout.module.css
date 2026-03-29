@@ -1,14 +1,15 @@
 .layout {
   max-width: 1141px; /* calc(3 * 750px / 2 + 2 * 8px) */
-  margin-left: auto;
-  margin-right: auto;
-  /* outline: 1px solid blue; */
+  margin-block-start: 10px;
+  margin-block-end: 50px;
+  margin-inline: auto;
+  /* outline: 1px solid red; */
 }
 
 @media only screen and (max-width: 1161px) {
   .layout {
     max-width: 916px; /* calc(3 * 750px / 2.5 + 2 * 8px); */
-    /* outline: 1px solid green; */
+    /* outline: 1px solid orange; */
   }
 }
 
@@ -22,14 +23,14 @@
 @media only screen and (max-width: 782px) {
   .layout {
     max-width: 606px; /* calc(2 * 750px / 2.5 + 6px); */
-    /* outline: 1px solid orange; */
+    /* outline: 1px solid green; */
   }
 }
 
 @media only screen and (max-width: 626px) {
   .layout {
     max-width: 508px; /* calc(2 * 750px / 3 + 8px); */
-    /* outline: 1px solid red; */
+    /* outline: 1px solid blue; */
   }
 }
 
@@ -42,7 +43,6 @@
 
 @media only screen and (max-width: 395px) {
   .layout {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-inline: 10px;
   }
 }
