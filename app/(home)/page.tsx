@@ -21,15 +21,15 @@ export default function Page() {
         <ProjectGridCell size="small" src="/mindsweeper-clip.gif" alt="Mindsweeper" href="/mindsweeper" width={156} height={156} pixelated={true} />
         <ProjectGridCell size="small" src="/western-prototype-clip.gif" alt="Western prototype" href="/western-prototype" width={128} height={128} pixelated={true} />
         <ProjectGridCell size="tiny" src="/grapple-prototype-2-clip.gif" alt="Grapple prototype #2" href="/grapple-prototype-2" width={75} height={75} pixelated={true} />
-        <ProjectGridCell size="tiny" src="/grapple-prototype-1-clip.gif" alt="Grapple prototype #1" href="/grapple-prototype-1" width={105} height={105} pixelated={true} />
         <ProjectGridCell size="tiny" src="/exact-change-clip.gif" alt="Exact change" href="/exact-change" width={70} height={70} pixelated={true} />
         <ProjectGridCell size="tiny" src="/nebulaic-clip.gif" alt="Nebulaic" href="/nebulaic" width={125} height={125} pixelated={true} />
+        <ProjectGridCell size="tiny" src="/grapple-prototype-1-clip.gif" alt="Grapple prototype #1" href="/grapple-prototype-1" width={105} height={105} pixelated={true} />
+        <ProjectGridCell size="tiny" src="/boss-fight-prototype-clip.gif" alt="Boss fight prototype" href="/boss-fight-prototype" width={46} height={46} pixelated={true} />
         <ProjectGridCell size="tiny" src="/agab-clip.gif" alt="AGAB" href="/agab" width={128} height={128} pixelated={true} />
         <ProjectGridCell size="tiny" src="/efflorescence-clip.gif" alt="Efflorescence" href="/efflorescence" width={150} height={150} pixelated={true} />
         <ProjectGridCell size="tiny" src="/virtual-pet-prototype-clip.gif" alt="Virtual pet prototype" href="/virtual-pet-prototype" width={100} height={100} />
         {/* 
-        <ProjectGridCell size="tiny" src="plat-fighter-prototype-clip.gif" alt="Plat fighter prototype" width={118} height={118} pixelated={true} />
-        <ProjectGridCell size="tiny" src="boss-fight-prototype-clip.gif" alt="Boss fight prototype" width={46} height={46} pixelated={true} />
+        <ProjectGridCell size="tiny" src="/plat-fighter-prototype-clip.gif" alt="Plat fighter prototype" width={118} height={118} pixelated={true} />
         <ProjectGridCell size="tiny" src="/train-prototype-clip.gif" alt="Train prototype" width={64} height={64} pixelated={true} />
         <ProjectGridCell size="tiny" src="/wave-function-collapse-clip.gif" alt="Wave function collapse" width={75} height={75} pixelated={true} />
         <ProjectGridCell size="tiny" src="/racquet-panic-clip.gif" alt="Racquet Panic" width={72} height={72} pixelated={true} />
