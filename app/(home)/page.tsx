@@ -129,17 +129,15 @@ export default function Page() {
           width={100}
           height={100}
           pixelated={true} />
-
-
-
         <ProjectGridCell
           size="tiny"
           src="/snowball-showdown-clip.gif"
           alt="Snowball Showdown"
+          href="/snowball-showdown"
           width={127}
           height={127}
           pixelated={true} />
-        <ProjectGridCell
+        {/* <ProjectGridCell
           size="tiny"
           src="/juggle-panic-clip.gif"
           alt="Juggle Panic"
@@ -216,10 +214,7 @@ export default function Page() {
           width={72}
           height={72}
           pixelated={true} />
-
-
-
-        {/* <ProjectGridCell
+        <ProjectGridCell
           size="tiny"
           src="/snowboarding-prototype-clip.gif"
           alt="Snowboarding prototype"
