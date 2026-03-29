@@ -17,7 +17,7 @@ export default function Page() {
           height={128}
           pixelated={true} />
       </ProjectHeader>
-      <ProjectContent>
+      <ProjectContent compact={true}>
         <p>A pong-like game where hitting the ball grants you experience and gold that can be spent placing miniature buildings on the field. Knocking the ball into a building triggers special effects like spawning troops or healing lost health.</p>
         <ProjectImage
           src="/arpongi-gameplay-2.gif"

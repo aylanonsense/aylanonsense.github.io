@@ -17,15 +17,20 @@
       color: var(--highlight);
     }
   }
-}
 
-/*
-iframe {
-  width: 100%;
-}
+  blockquote {
+    border-left: 4px solid var(--faded);
+    padding-left: 1em;
+  }
 
-blockquote {
-  border-left: 4px solid var(--foreground);
-  padding-left: 20px;
+  &.compact {
+    >* {
+      max-width: 395px;
+      margin-inline: auto;
+    }
+
+    p, blockquote {
+      max-width: inherit;
+    }
+  }
 }
-*/
