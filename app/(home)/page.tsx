@@ -129,7 +129,9 @@ export default function Page() {
           width={100}
           height={100}
           pixelated={true} />
-        {/*
+
+
+
         <ProjectGridCell
           size="tiny"
           src="/snowball-showdown-clip.gif"
@@ -146,66 +148,10 @@ export default function Page() {
           pixelated={true} />
         <ProjectGridCell
           size="tiny"
-          src="/snowboarding-prototype-clip.gif"
-          alt="Snowboarding prototype"
-          width={128}
-          height={128}
-          pixelated={true} />
-        <ProjectGridCell
-          size="tiny"
-          src="grapple-prototype-2-clip.gif"
-          alt="Grapple prototype #2"
-          width={75}
-          height={75}
-          pixelated={true} />
-        <ProjectGridCell
-          size="tiny"
-          src="/tennis-prototype-clip.gif"
-          alt="Tennis prototype"
-          width={30}
-          height={30}
-          pixelated={true} />
-        <ProjectGridCell
-          size="tiny"
-          src="/exact-change-clip.gif"
-          alt="Exact change"
-          width={70}
-          height={70}
-          pixelated={true} />
-        <ProjectGridCell
-          size="tiny"
-          src="plat-fighter-prototype-clip.gif"
-          alt="Plat fighter prototype"
-          width={118}
-          height={118}
-          pixelated={true} />
-        <ProjectGridCell
-          size="tiny"
           src="/efflorescence-clip.gif"
           alt="Efflorescence"
           width={150}
           height={150}
-          pixelated={true} />
-        <ProjectGridCell
-          size="tiny"
-          src="boss-fight-prototype-clip.gif"
-          alt="Boss fight prototype"
-          width={46}
-          height={46}
-          pixelated={true} />
-        <ProjectGridCell
-          size="tiny"
-          src="/grapple-prototype-1-clip.gif"
-          alt="Grapple prototype #1"
-          width={105}
-          height={105}
-          pixelated={true} />
-        <ProjectGridCell
-          size="tiny"
-          src="/minepick-platformer-prototype-clip.gif"
-          alt="Minepick platformer prototype"
-          width={50}
-          height={50}
           pixelated={true} />
         <ProjectGridCell
           size="tiny"
@@ -216,17 +162,52 @@ export default function Page() {
           pixelated={true} />
         <ProjectGridCell
           size="tiny"
-          src="/wave-function-collapse-clip.gif"
-          alt="Wave function collapse"
+          src="/exact-change-clip.gif"
+          alt="Exact change"
+          width={70}
+          height={70}
+          pixelated={true} />
+        <ProjectGridCell
+          size="tiny"
+          src="/grapple-prototype-1-clip.gif"
+          alt="Grapple prototype #1"
+          width={105}
+          height={105}
+          pixelated={true} />
+        <ProjectGridCell
+          size="tiny"
+          src="plat-fighter-prototype-clip.gif"
+          alt="Plat fighter prototype"
+          width={118}
+          height={118}
+          pixelated={true} />
+        <ProjectGridCell
+          size="tiny"
+          src="boss-fight-prototype-clip.gif"
+          alt="Boss fight prototype"
+          width={46}
+          height={46}
+          pixelated={true} />
+        <ProjectGridCell
+          size="tiny"
+          src="/train-prototype-clip.gif"
+          alt="Train prototype"
+          width={64}
+          height={64}
+          pixelated={true} />
+        <ProjectGridCell
+          size="tiny"
+          src="grapple-prototype-2-clip.gif"
+          alt="Grapple prototype #2"
           width={75}
           height={75}
           pixelated={true} />
         <ProjectGridCell
           size="tiny"
-          src="/time-travel-prototype-clip.gif"
-          alt="Time travel prototype"
-          width={50}
-          height={50}
+          src="/wave-function-collapse-clip.gif"
+          alt="Wave function collapse"
+          width={75}
+          height={75}
           pixelated={true} />
         <ProjectGridCell
           size="tiny"
@@ -235,12 +216,36 @@ export default function Page() {
           width={72}
           height={72}
           pixelated={true} />
+
+
+
+        {/* <ProjectGridCell
+          size="tiny"
+          src="/snowboarding-prototype-clip.gif"
+          alt="Snowboarding prototype"
+          width={128}
+          height={128}
+          pixelated={true} />
         <ProjectGridCell
           size="tiny"
-          src="/train-prototype-clip.gif"
-          alt="Train prototype"
-          width={64}
-          height={64}
+          src="/tennis-prototype-clip.gif"
+          alt="Tennis prototype"
+          width={30}
+          height={30}
+          pixelated={true} />
+        <ProjectGridCell
+          size="tiny"
+          src="/minepick-platformer-prototype-clip.gif"
+          alt="Minepick platformer prototype"
+          width={50}
+          height={50}
+          pixelated={true} />
+        <ProjectGridCell
+          size="tiny"
+          src="/time-travel-prototype-clip.gif"
+          alt="Time travel prototype"
+          width={50}
+          height={50}
           pixelated={true} />
         <ProjectGridCell
           size="tiny"
