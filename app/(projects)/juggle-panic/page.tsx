@@ -23,7 +23,7 @@ export default function Page() {
           pixelated={true} />
       </ProjectHeader>
       <ProjectContent compact={true}>
-        <p>A two-player juggling extravaganza! First to drop five balls loses. The game features a ton of alternate game modes.</p>
+        <p>A two-player juggling extravaganza! First to drop five balls loses. The game features a ton of alternate game modes that add variety. Developed for an <ExternalLink href="https://withfriends.events/event/u4fthz9a/cool/">indie multiplayer game night</ExternalLink>. Listed in <ExternalLink href="https://bigbossbattle.com/non-violent-multiplayer-games-that-arent-sports-related/">20 non-violent multiplayer games that aren’t sports-related!</ExternalLink></p>
         <ProjectImage
           src="/juggle-panic-gameplay-2.gif"
           alt="Two players throw balls back-and-forth, exploding if they touch the ground."
