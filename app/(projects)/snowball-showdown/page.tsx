@@ -2,7 +2,6 @@ import ExternalLink from "@/app/components/ExternalLink"
 import ProjectContent from "@/app/components/ProjectContent"
 import ProjectHeader from "@/app/components/ProjectHeader"
 import ProjectImage from "@/app/components/ProjectImage"
-import SoundCloudEmbed from "@/app/components/SoundCloudEmbed"
 
 export default function Page() {
   return (

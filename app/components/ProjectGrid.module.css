@@ -7,7 +7,7 @@
 .cell {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   line-height: 0;
   border-radius: 1px;
 
