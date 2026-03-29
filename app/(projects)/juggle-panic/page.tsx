@@ -13,8 +13,7 @@ export default function Page() {
           "https://aylanonsense.itch.io/juggle-panic",
           "https://github.com/aylanonsense/juggle-panic",
           "https://www.lexaloffle.com/bbs/?pid=50260",
-        ]}
-        compact={true}>
+        ]}>
         <ProjectImage
           src="/juggle-panic-gameplay-1.gif"
           alt={"The title \"Juggle Panic\" slides out of view to show two players atop a rainbow background."}

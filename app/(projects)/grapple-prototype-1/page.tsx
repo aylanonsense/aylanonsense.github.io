@@ -8,8 +8,7 @@ export default function Page() {
     <>
       <ProjectHeader
         title="Grapple prototype #1"
-        date="February 2014"
-        compact={true}>
+        date="February 2014">
         <ProjectImage
           src="/grapple-prototype-1-gameplay-1.gif"
           alt="A mailman swings between floating islands made of tiles using a grappling hook."
@@ -17,7 +16,7 @@ export default function Page() {
           height={142}
           pixelated={true} />
       </ProjectHeader>
-      <ProjectContent compact={true}>
+      <ProjectContent>
         <p>Prototype for a web game about where you move about with grappling hooks delivering mail. The levels are tile-based and get baked to line segments at build-time for optimized grapple collision detection. This was followed up by <Link href="/grapple-prototype-2">grapple prototype #2</Link> when I wasn't satisfied with some of the math.</p>
       </ProjectContent>
     </>

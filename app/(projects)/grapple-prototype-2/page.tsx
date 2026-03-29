@@ -8,8 +8,7 @@ export default function Page() {
     <>
       <ProjectHeader
         title="Grapple prototype #2"
-        date="November 2015"
-        compact={true}>
+        date="November 2015">
         <ProjectImage
           src="/grapple-prototype-2-gameplay-1.gif"
           alt="A tiny figure swings between geometric objects using a grappling hook."
@@ -17,8 +16,8 @@ export default function Page() {
           height={355}
           pixelated={true} />
       </ProjectHeader>
-      <ProjectContent compact={true}>
-        <p>A project I took on to really learn 2D geometry hit detection. The level is defined by a series of line segments and curves and the player's grappling hook reliably latches onto (and even slightly auto-aims towards) level geometry. High-speed objects are accurately interpolated so that nothing can ever fall through the level. Just a chance to learn and practice.</p>
+      <ProjectContent>
+        <p>A project I took on to really learn 2D geometry hit detection. The level is defined by a series of line segments and curves and the player's grappling hook reliably latches onto (and even slightly auto-aims towards) level geometry. High-speed objects are accurately interpolated. Just a chance to learn and practice.</p>
       </ProjectContent>
     </>
   )

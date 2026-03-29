@@ -7,15 +7,14 @@ export default function Page() {
     <>
       <ProjectHeader
         title="Virtual pet prototype"
-        date="January 2004"
-        compact={true}>
+        date="January 2004">
         <ProjectImage
           src="/virtual-pet-prototype-gameplay-1.gif"
           alt="A black blob emerges from an egg."
           width={475}
           height={325} />
       </ProjectHeader>
-      <ProjectContent compact={true}>
+      <ProjectContent>
         <p>One of the very first games I ever made. A little virtual pet game where you fed and cared for your pet blob.</p>
       </ProjectContent>
     </>

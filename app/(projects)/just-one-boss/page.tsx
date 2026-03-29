@@ -15,8 +15,7 @@ export default function Page() {
           "https://www.lexaloffle.com/bbs/?pid=49234",
           "https://www.newgrounds.com/portal/view/708665",
           "https://github.com/aylanonsense/just-one-boss",
-        ]}
-        compact={true}>
+        ]}>
         <ProjectImage
           src="/just-one-boss-gameplay-1.gif"
           alt={"The title screen for \"Just One Boss\"."}

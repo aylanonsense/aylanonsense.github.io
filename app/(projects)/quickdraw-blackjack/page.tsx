@@ -11,8 +11,7 @@ export default function Page() {
         date="December 2018"
         links={[
           "https://github.com/aylanonsense/quickdraw-blackjack",
-        ]}
-          compact={true}>
+        ]}>
         <ProjectImage
           src="/quickdraw-blackjack-gameplay-3.gif"
           alt={"Cards are thrown up and shot in quick order and the combined total is tallied to be 21. \"Blackjack!\" appears."}

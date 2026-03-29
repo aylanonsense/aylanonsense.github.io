@@ -13,8 +13,7 @@ export default function Page() {
           "https://aylanonsense.itch.io/snowball-showdown",
           "https://www.lexaloffle.com/bbs/?pid=snowball_showdown",
           "https://github.com/aylanonsense/snowball-showdown",
-        ]}
-        compact={true}>
+        ]}>
         <ProjectImage
           src="/snowball-showdown-gameplay-1.gif"
           alt={"Title screen for \"Snowball Showdown\" with player one and player two."}
@@ -23,7 +22,7 @@ export default function Page() {
           pixelated={true} />
       </ProjectHeader>
       <ProjectContent compact={true}>
-        <p>A one-button 1-v-1 standoff in a blizzard! Developed for <ExternalLink href="https://www.lexaloffle.com/bbs/?tid=32388">PICO-8 Advent Calendar 2018</ExternalLink>.</p>
+        <p>A one-button 1-v-1 standoff in a blizzard! Developed for the <ExternalLink href="https://www.lexaloffle.com/bbs/?tid=32388">PICO-8 Advent Calendar 2018</ExternalLink>.</p>
         <ProjectImage
           src="/snowball-showdown-gameplay-2.gif"
           alt="Two players bow before beginning to pack snowballs."

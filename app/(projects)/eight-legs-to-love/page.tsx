@@ -13,8 +13,7 @@ export default function Page() {
           "https://www.lexaloffle.com/bbs/?pid=41423",
           "https://www.newgrounds.com/portal/view/709469",
           "https://github.com/aylanonsense/8-legs-to-love",
-        ]}
-        compact={true}>
+        ]}>
         <ProjectImage
           src="/eight-legs-to-love-gameplay-1.gif"
           alt={"A spider hangs beneath \"8 Legs to Love\" spelled out in silky letters, with blinking \"Press Z to start\" text below."}

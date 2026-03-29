@@ -8,8 +8,7 @@ export default function Page() {
     <>
       <ProjectHeader
         title="Castle minigames"
-        date="August 2019"
-        compact={true}>
+        date="August 2019">
         <ProjectImage
           src="/castle-minigames-clip.gif"
           alt="Gameplay from a variety of minigames: an endless runner, a racing game, a platformer, and a basketball shooting game."
@@ -17,8 +16,8 @@ export default function Page() {
           height={192}
           pixelated={true} />
       </ProjectHeader>
-      <ProjectContent compact={true}>
-        <p>I was commissioned to develop a dozen small minigames for the <ExternalLink href="https://castle.xyz/">Castle game platform</ExternalLink> to serve as a starting point for beginner game devs. There was a top-down racing game, a platformer, a boids flocking simulation, an endless runner, and an asteroids clone among others.</p>
+      <ProjectContent>
+        <p>I was commissioned to develop a dozen small minigames for the <ExternalLink href="https://castle.xyz/">Castle game platform</ExternalLink> to serve as a starting point for beginner game devs. There was a top-down racing game, a platformer, a boids flocking simulation, and an asteroids clone among others.</p>
       </ProjectContent>
     </>
   )
