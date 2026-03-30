@@ -6,7 +6,7 @@ import styles from "./page.module.css"
 export default function Page() {
   return (
     <section className={styles.page}>
-      <p>I am looking for work! If you'd like to work together or if there's an opportunity you think I might be a good fit for, please feel free to <ExternalLink href="mailto:helloaylamyers@gmail.com">send me a message</ExternalLink> or <Link href="/resume.pdf">take a look at my résumé</Link>.</p>
+      <p>Hey there! I'm currently looking for opportunities, if you'd like to work together feel free to <ExternalLink href="mailto:helloaylamyers@gmail.com">reach out</ExternalLink> or <Link href="/resume.pdf">view my résumé</Link>.</p>
       <ProjectGrid>
         <ProjectGridCell size="huge" src="/clone-drone-in-the-hyperdome-title-art.webp" alt="Clone Drone in the Hyperdome" href="/clone-drone-in-the-hyperdome" width={752} height={1000} />
         <ProjectGridCell size="huge" src="/beast-breaker-title-art.webp" alt="Beast Breaker" href="/beast-breaker" width={752} height={1000} />
