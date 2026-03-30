@@ -1,9 +1,10 @@
 .page {
+  margin-block-end: 3lh;
+
   p {
     max-width: 508px;
     margin-inline: auto;
-    margin-block-start: 3lh;
-    margin-block-end: 5lh;
+    margin-block-end: 1lh;
 
     a {
       text-decoration: underline;
