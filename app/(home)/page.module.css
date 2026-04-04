@@ -4,7 +4,9 @@
   p {
     max-width: 508px;
     margin-inline: auto;
-    margin-block-end: 1lh;
+    margin-block: 2lh;
+    padding: 2em;
+    border: 2px solid var(--highlight);
 
     a {
       text-decoration: underline;

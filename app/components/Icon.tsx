@@ -15,6 +15,9 @@ export function guessIconTypeFromLink(href: string): IconType | undefined {
   else if (href.startsWith("https://www.lexaloffle.com")) {
     return "Lexaloffle"
   }
+  else if (href.startsWith("mailto:")) {
+    return "Mail"
+  }
   else if (href.startsWith("https://www.meta.com")) {
     return "Meta"
   }

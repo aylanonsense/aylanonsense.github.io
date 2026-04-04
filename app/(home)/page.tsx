@@ -6,7 +6,6 @@ import styles from "./page.module.css"
 export default function Page() {
   return (
     <section className={styles.page}>
-      <p>Hey there! I'm currently looking for opportunities, if you'd like to work together feel free to <ExternalLink href="mailto:helloaylamyers@gmail.com">reach out</ExternalLink> or <Link href="/resume.pdf">view my résumé</Link>.</p>
       <ProjectGrid>
         <ProjectGridCell size="huge" src="/clone-drone-in-the-hyperdome-title-art.webp" alt="Clone Drone in the Hyperdome" href="/clone-drone-in-the-hyperdome" width={752} height={1000} />
         <ProjectGridCell size="huge" src="/beast-breaker-title-art.webp" alt="Beast Breaker" href="/beast-breaker" width={752} height={1000} />
@@ -45,6 +44,7 @@ export default function Page() {
         <ProjectGridCell size="tiny" src="/emoji-surgeon-thumbnail.png" alt="Emoji surgeon" width={120} height={120} />
         */}
       </ProjectGrid>
+      <p>I'm looking for opportunities! If you'd like to work together feel free to <ExternalLink href="mailto:helloaylamyers@gmail.com">reach out</ExternalLink> or <Link href="/resume.pdf">view my résumé</Link>.</p>
     </section>
   )
 }
