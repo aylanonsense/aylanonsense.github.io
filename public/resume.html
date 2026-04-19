@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ayla Myers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <style>
+      /* Reset */
+      html {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        color: #000;
+        background: #fff;
+        font-weight: normal;
+        text-decoration: none;
+        font-optical-sizing: auto;
+      }
+      p, h1, h2, h3, h4, h5, h6, ul, ol, li, strong, em, a {
+        margin: 0;
+        padding: 0;
+        color: inherit;
+        font-family: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        text-decoration: inherit;
+        font-optical-sizing: inherit;
+      }
+      ul, ol {
+        list-style-type: none;
+      }
+
+      /* Print and print preview */
+      @page {
+        size: 8.5in 11in;
+        margin: 1in;
+        padding: 0;
+      }
+      @media only screen {
+        body {
+          width: 8.5in;
+          margin: 42px auto;
+          background: #272727;
+        }
+        body .page {
+          padding: 1in;
+          background: #fff;
+        }
+      }
+
+      /* Structure */
+      #contact ul {
+        display: flex;
+        justify-content: space-between;
+      }
+      #contact ul li {
+        display: block;
+        flex-basis: 0;
+        flex-grow: 1;
+        flex-shrink: 1;
+        text-align: center;
+      }
+      #contact ul li:first-child {
+        text-align: left;
+      }
+      #contact ul li:last-child {
+        text-align: right;
+      }
+      #header h1 {
+        text-align: center;
+      }
+      .section-header {
+        display: flex;
+        align-items: baseline;
+        position: relative;
+      }
+      .section-header .dots {
+        flex-grow: 1;
+      }
+      .section-header div:last-child {
+        text-align: right;
+      }
+
+      /* Spacing */
+      #contact {
+        padding-top: 3px;
+        padding-bottom: 3px;
+      }
+      #header {
+        margin-top: 10px;
+        margin-bottom: 17px;
+      }
+      #header p {
+        margin-left: 40px;
+        margin-right: 40px;
+      }
+      #header h1 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      h2 {
+        margin-bottom: 2px;
+      }
+      #experience, #talks, #skills, #education {
+        margin-top: 13px;
+        margin-bottom: 13px;
+      }
+      #experience section, #education section {
+        margin-top: 2px;
+        margin-bottom: 6px;
+      }
+      #experience .section-header div:first-of-type, #presentations .section-header div:first-of-type {
+        margin-left: 8px;
+      }
+      #experience ul {
+        padding-left: 20px;
+      }
+
+      /* Fonts */
+      body {
+        font-family: "IBM Plex Serif", serif;
+        font-weight: 300;
+        font-size: 12pt;
+        line-height: 1.32;
+      }
+      h1 {
+        font-size: 28pt;
+        font-weight: 400;
+      }
+      h2 {
+        text-transform: uppercase;
+        font-size: 15pt;
+        font-weight: 400;
+      }
+      #experience h3, #experience .section-header .employer {
+        font-size: 14pt;
+        font-weight: 400;
+      }
+      #education h3 {
+        font-weight: 400;
+      }
+      #experience .section-header .employer {
+        font-style: italic;
+      }
+      #presentations .section-header .location {
+        font-weight: 300;
+        font-style: italic;
+      }
+      #skills strong {
+        font-weight: 400;
+      }
+
+      /* Decoration */
+      #contact {
+        color: #666;
+        border-top: 1px solid #bbb;
+        border-bottom: 1px solid #bbb;
+      }
+      #contact ul li:first-child {
+        margin-left: 10px;
+      }
+      #contact ul li:last-child {
+        margin-right: 10px;
+      }
+      #header p {
+        text-align: justify;
+        text-align-last: justify;
+      }
+      h2 {
+        border-bottom: 1px solid #bbb;
+      }
+      #experience ul {
+        list-style-type: disc;
+      }
+      #experience ul li {
+        color: #999;
+        position: relative;
+        left: 4px;
+      }
+      #experience ul li >span {
+        position: relative;
+        right: 4px;
+      }
+      #experience ul li span {
+        color: #000;
+      }
+      .section-header div {
+        color: #999;
+      }
+      .section-header .dots {
+        margin: 0 6px;
+        border-bottom: 2px dotted #ddd;
+      }
+      .link-icon {
+        display: inline-block;
+        width: 11px;
+        height: 11px;
+        background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-7 -7 114 114'><path d='M 20 10 H 0 V 100 H 90 V 80 M 35 65 L 100 0 M 45 0 H 100 V 55' fill='none' stroke='black' stroke-width='12' stroke-linecap='round'/></svg>");
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <aside id="contact">
+        <ul>
+          <li><a href="https://aylanonsen.se" target="_blank" rel="noopener noreferrer">https://aylanonsen.se</a></li>
+          <li><a href="tel:607-227-8161" target="_blank" rel="noopener noreferrer">(607) 227-8161</a></li>
+          <li><a href="mailto:helloaylamyers@gmail.com" target="_blank" rel="noopener noreferrer">helloaylamyers@gmail.com</a></li>
+        </ul>
+      </aside>
+      <header id="header">
+        <h1>Ayla Myers</h1>
+        <p>Game developer, producer, and team lead with 15 years of professional experience and a proven track record of releasing quality games on time.</p>
+      </header>
+      <section id="experience">
+        <h2>Professional Experience</h2>
+        <section>
+          <div class="section-header">
+            <h3>Lead Game Engineer &amp; Producer</h3>
+            <div class="employer">Doborog</div>
+            <div class="dots"></div>
+            <div class="date-range"><span>May 2022&mdash;Sep 2025</span></div>
+          </div>
+          <ul>
+            <li><span>Released <a href="https://store.steampowered.com/app/2401230/Clone_Drone_in_the_Hyperdome/" target="_blank" rel="noopener noreferrer">&quot;Clone Drone in the Hyperdome&quot; <span class="link-icon"></span></a>, a virtual reality sword-fighting Unity game, garnering Very Positive reviews on Steam and 4.6 stars on the Meta store.</span></li>
+            <li><span>Extensively optimized draw call performance to hit Meta's VRC targets using techniques like GPU instancing, texture atlases, imposters, and baked lighting.</span></li>
+            <li><span>Established timelines, set release dates, coordinated launch plans, managed project dependencies, and ensured project delivery avoiding &quot;development hell.&quot;</span></li>
+            <li><span>Juiced up voxel destruction with custom fragment shaders and voxel byte data.</span></li>
+            <li><span>Rebuilt and took ownership of CI/CD pipelines and DevOps infrastructure.</span></li>
+          </ul>
+        </section>
+        <section>
+          <div class="section-header">
+            <h3>Unity Game Programmer</h3>
+            <div class="employer">Vodeo Games</div>
+            <div class="dots"></div>
+            <div class="date-range"><span>Mar 2020&mdash;Feb 2022</span></div>
+          </div>
+          <ul>
+            <li><span>Released <a href="https://store.epicgames.com/en-US/p/beast-breaker" target="_blank" rel="noopener noreferrer">&quot;Beast Breaker&quot; <span class="link-icon"></span></a> to the Epic Games store and Nintendo Switch, referred to as &quot;the epitome of a hidden gem&quot; on Nintendo Life and scoring a 9/10.</span></li>
+            <li><span>Implemented turn-based combat mechanics, particles, polish, and juice.</span></li>
+            <li><span>Made an inverse kinematics workflow powered by Burst-compiled animation jobs.</span></li>
+            <li><span>Developed a game serialization and autosave system compatible across platforms.</span></li>
+          </ul>
+        </section>
+        <section>
+          <div class="section-header">
+            <h3>Lead Game Programmer</h3>
+            <div class="employer">Sweet Baby Inc.</div>
+            <div class="dots"></div>
+            <div class="date-range"><span>Jan 2020&mdash;Aug 2021</span></div>
+          </div>
+          <ul>
+            <li><span>Released <a href="https://play.date/games/lost-your-marbles/" target="_blank" rel="noopener noreferrer">&quot;Lost Your Marbles&quot; <span class="link-icon"></span></a>, a quirky narrative marble game for the Playdate.</span></li>
+            <li><span>Designed a 2D physics engine optimized to run on CPU-limited hardware.</span></li>
+            <li><span>Created a narrative event system to support the complex branching storyline.</span></li>
+            <li><span>Mentored two teams of junior developers through the entire lifecycle of developing their own games for the Playdate: &quot;Reel Steal&quot; and &quot;Recommendation Dog.&quot;</span></li>
+          </ul>
+        </section>
+        <section>
+          <div class="section-header">
+            <h3>Game Designer &amp; Founder</h3>
+            <div class="employer">8-Bit Mischief LLC</div>
+            <div class="dots"></div>
+            <div class="date-range"><span>Feb 2018&mdash;Mar 2021</span></div>
+          </div>
+          <ul>
+            <li><span>Independently developed several small web games and PICO-8 games such as <a href="https://www.lexaloffle.com/bbs/?tid=30767" target="_blank" rel="noopener noreferrer">&quot;Just One Boss&quot; <span class="link-icon"></span></a> which received millions of plays across dozens of sites.</span></li>
+            <li><span>Presented at industry events like Play NYC, PAX East, MAGFest, and No Quarter.</span></li>
+            <li><span>Personally handled social media, marketing, and the sale of games to sites.</span></li>
+          </ul>
+        </section>
+        <section>
+          <div class="section-header">
+            <h3>Game Programmer &amp; React Engineer</h3>
+            <div class="employer">Castle</div>
+            <div class="dots"></div>
+            <div class="date-range"><span>Dec 2018&mdash;Oct 2019</span></div>
+          </div>
+          <ul>
+            <li><span>Created a dozen example online multiplayer Lua games as learning resources.</span></li>
+            <li><span>Implemented features like analytics for the React-based game platform itself.</span></li>
+            <li><span>Identified market opportunities and researched platform competitors.</span></li>
+          </ul>
+        </section>
+        <section>
+          <div class="section-header">
+            <h3>Engineering Manager &amp; Team Lead</h3>
+            <div class="employer">Aaptiv</div>
+            <div class="dots"></div>
+            <div class="date-range"><span>Jun 2018&mdash;Mar 2019</span></div>
+          </div>
+          <ul>
+            <li><span>Lead a four-person engineering team tasked with growing and refining a React-based conversion funnel, using metrics and A/B tests to maximize CTR.</span></li>
+            <li><span>Implemented auto-login support, user behavior tracking, and attribution.</span></li>
+          </ul>
+        </section>
+        <section>
+          <div class="section-header">
+            <h3>Senior Software Engineer &amp; Tech Lead</h3>
+            <div class="employer">Etsy</div>
+            <div class="dots"></div>
+            <div class="date-range"><span>Aug 2015&mdash;Sep 2017</span></div>
+          </div>
+          <ul>
+            <li><span>Co-lead a product team up to and through the public launch of Etsy Studio.</span></li>
+            <li><span>Mentored junior engineers, helping them advance their web development careers.</span></li>
+          </ul>
+        </section>
+        <section>
+          <div class="section-header">
+            <h3>Software Engineer</h3>
+            <div class="employer">AppNexus</div>
+            <div class="dots"></div>
+            <div class="date-range"><span>May 2013&mdash;Aug 2015</span></div>
+          </div>
+          <ul>
+            <li><span>Built unit-tested JavaScript modules and APIs for real-time bidding software.</span></li>
+          </ul>
+        </section>
+        <section>
+          <div class="section-header">
+            <h3>Software Engineer</h3>
+            <div class="employer">IBM</div>
+            <div class="dots"></div>
+            <div class="date-range"><span>Sep 2011&mdash;May 2013</span></div>
+          </div>
+          <ul>
+            <li><span>Developed JavaScript widgets for IBM's business process management suite.</span></li>
+          </ul>
+        </section>
+      </section>
+      <section id="presentations">
+        <h2>Talks &amp; Presentations</h2>
+        <section>
+          <div class="section-header">
+            <h3><a href="https://www.deconstructconf.com/2019/ayla-myers-multiplayer-game-networking-the-brute-force-approach" target="_blank" rel="noopener noreferrer">Multiplayer Game Networking: The Brute Force Approach! <span class="link-icon"></span></span></a></h3>
+            <div class="location">Deconstruct</div>
+            <div class="dots"></div>
+            <div class="date-range"><span>Jul 2019</span></div>
+          </div>
+          <div class="section-header">
+            <h3>PRIDE Panel</h3>
+            <div class="location">Playcrafting</div>
+            <div class="dots"></div>
+            <div class="date-range"><span>Jun 2019</span></div>
+          </div>
+          <div class="section-header">
+            <h3><a href="https://www.youtube.com/watch?v=qaCBpgVIw0Q" target="_blank" rel="noopener noreferrer">Let's expand the meaning of "GAME FEEL"!! <span class="link-icon"></span></a></h3>
+            <div class="location">!!con</div>
+            <div class="dots"></div>
+            <div class="date-range"><span>May 2019</span></div>
+          </div>
+          <div class="section-header">
+            <h3>Gettin' started makin' games</h3>
+            <div class="location">Catskills Conf</div>
+            <div class="dots"></div>
+            <div class="date-range"><span>Oct 2018</span></div>
+          </div>
+          <div class="section-header">
+            <h3>Procedural Landscape Generation</h3>
+            <div class="location">Never Graduate Week</div>
+            <div class="dots"></div>
+            <div class="date-range"><span>May 2018</span></div>
+          </div>
+          <div class="section-header">
+            <h3><a href="https://www.youtube.com/watch?v=QnDRmPx8yLY" target="_blank" rel="noopener noreferrer">The joys of PICO-8 token crunching!! <span class="link-icon"></span></a></h3>
+            <div class="location">!!con</div>
+            <div class="dots"></div>
+            <div class="date-range"><span>May 2018</span></div>
+          </div>
+          <div class="section-header">
+            <h3>"Oh No" Moments in Games</h3>
+            <div class="location">Playcrafting</div>
+            <div class="dots"></div>
+            <div class="date-range"><span>Mar 2018</span></div>
+          </div>
+          <div class="section-header">
+            <h3>Meet &amp; Code Pair Programming Workshop</h3>
+            <div class="location">Recurse Center</div>
+            <div class="dots"></div>
+            <div class="date-range"><span>Jan 2018</span></div>
+          </div>
+          <div class="section-header">
+            <h3><a href="https://www.youtube.com/watch?v=Ccn3YEoVLz0&t=29m08s" target="_blank" rel="noopener noreferrer">Wave Function Collapse <span class="link-icon"></span></a></h3>
+            <div class="location">Code As Craft</div>
+            <div class="dots"></div>
+            <div class="date-range"><span>Jun 2017</span></div>
+          </div>
+          <div class="section-header">
+            <h3>Networking Real-Time Multiplayer Games</h3>
+            <div class="location">QueensJS</div>
+            <div class="dots"></div>
+            <div class="date-range"><span>Nov 2016</span></div>
+          </div>
+          <div class="section-header">
+            <h3>Makin' Pixel Art</h3>
+            <div class="location">Etsy</div>
+            <div class="dots"></div>
+            <div class="date-range"><span>Mar 2016</span></div>
+          </div>
+        </section>
+      </section>
+      <section id="skills">
+        <h2>Skills &amp; Technologies</h2>
+        <ul>
+          <li><strong>Game Engines:</strong> Unity (8+ years of experience), Godot (5+ years), Unreal (on-and-off)</li>
+          <li><strong>Asset Creation:</strong> Photoshop, Blender, Aseprite, Reaper</li>
+          <li><strong>Web Development:</strong> HTML, CSS, JavaScript, TypeScript, JSON, Node, React, Next.js</li>
+          <li><strong>Languages:</strong> C#, GDScript, GLSL, Lua, Bash, Python, SQL, Java, etc.</li>
+        </ul>
+      </section>
+      <section id="education">
+        <h2>Education</h2>
+        <section>
+          <div class="section-header">
+            <h3>Recurse Center</h3>
+            <div class="dots"></div>
+            <div class="date-range"><span>2017&ndash;2018</span></div>
+          </div>
+          <p class="description">Self-directed twelve-week retreat for creative programmers.</p>
+        </section>
+        <section>
+          <div class="section-header">
+            <h3>Rochester Institute of Technology</h3>
+            <div class="dots"></div>
+            <div class="date-range"><span>2007&ndash;2010</span></div>
+          </div>
+          <p class="description">B.S. in Information Science and Technology.</p>
+        </section>
+        <section>
+          <div class="section-header">
+            <h3>Cornell University</h3>
+            <div class="dots"></div>
+            <div class="date-range"><span>Summer 2005 &amp; 2006</span></div>
+          </div>
+        </section>
+      </section>
+    </div>
+  </body>
+</html>
