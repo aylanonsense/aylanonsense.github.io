@@ -1,8 +1,10 @@
 # Portfolio
 
-The personal portfolio of Ayla Myers.
+The personal portfolio site of Ayla Myers, made using Next.js.
 
 ## Setup
+
+Install dependencies with `npm install -D`.
 
 Run `npm run dev` then open [http://localhost:3000](http://localhost:3000).
 
