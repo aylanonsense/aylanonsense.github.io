@@ -8,7 +8,10 @@ export default function Page() {
     <>
       <ProjectHeader
         title="arpongi"
-        date="May 2018">
+        date="May 2018"
+        links={[
+          "https://aylanonsense.itch.io/arpongi",
+        ]}>
         <ProjectImage
           src="/arpongi-gameplay-1.gif"
           alt={"The title screen to the game \"arpongi\", each side of the screen showing a player selection for \"Knight\", \"Thief\", or \"Witch\"."}
