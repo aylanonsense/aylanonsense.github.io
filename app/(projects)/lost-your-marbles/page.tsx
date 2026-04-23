@@ -11,6 +11,7 @@ export default function Page() {
         releaseDate="September 15, 2021"
         links={[
           "https://play.date/games/lost-your-marbles/",
+          "https://github.com/aylanonsense/marbles",
         ]}>
         <ProjectImage
           src="/lost-your-marbles-gameplay-1.gif"
