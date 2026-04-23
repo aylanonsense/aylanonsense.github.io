@@ -12,6 +12,7 @@ export default function Page() {
           "https://aylanonsense.itch.io/8-legs-to-love",
           "https://www.lexaloffle.com/bbs/?pid=41423",
           "https://www.newgrounds.com/portal/view/709469",
+          "https://gamejolt.com/games/8-legs-to-love/332504",
           "https://github.com/aylanonsense/8-legs-to-love",
         ]}>
         <ProjectImage

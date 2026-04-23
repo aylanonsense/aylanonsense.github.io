@@ -12,6 +12,7 @@ export default function Page() {
         links={[
           "https://aylanonsense.itch.io/juggle-panic",
           "https://www.lexaloffle.com/bbs/?pid=50260",
+          "https://gamejolt.com/games/juggle-panic/332516",
           "https://github.com/aylanonsense/juggle-panic",
         ]}>
         <ProjectImage

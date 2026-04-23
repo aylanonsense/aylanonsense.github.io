@@ -14,6 +14,7 @@ export default function Page() {
           "https://aylanonsense.itch.io/just-one-boss",
           "https://www.lexaloffle.com/bbs/?pid=49234",
           "https://www.newgrounds.com/portal/view/708665",
+          "https://gamejolt.com/games/just-one-boss/332470",
           "https://github.com/aylanonsense/just-one-boss",
         ]}>
         <ProjectImage

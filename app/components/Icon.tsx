@@ -9,6 +9,9 @@ export function guessIconTypeFromLink(href: string): IconType | undefined {
   if (href.startsWith("https://store.epicgames.com")) {
     return "Epic Games"
   }
+  else if (href.startsWith("https://gamejolt.com")) {
+    return "Game Jolt"
+  }
   else if (href.startsWith("https://github.com")) {
     return "GitHub"
   }
