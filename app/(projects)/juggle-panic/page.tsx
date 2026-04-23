@@ -11,8 +11,8 @@ export default function Page() {
         date="March 2018"
         links={[
           "https://aylanonsense.itch.io/juggle-panic",
-          "https://github.com/aylanonsense/juggle-panic",
           "https://www.lexaloffle.com/bbs/?pid=50260",
+          "https://github.com/aylanonsense/juggle-panic",
         ]}>
         <ProjectImage
           src="/juggle-panic-gameplay-1.gif"

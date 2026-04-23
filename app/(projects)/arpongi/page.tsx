@@ -11,6 +11,7 @@ export default function Page() {
         date="May 2018"
         links={[
           "https://aylanonsense.itch.io/arpongi",
+          "https://github.com/aylanonsense/arpongi",
         ]}>
         <ProjectImage
           src="/arpongi-gameplay-1.gif"
