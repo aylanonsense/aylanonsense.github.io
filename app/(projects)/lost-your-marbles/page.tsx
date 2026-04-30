@@ -12,7 +12,8 @@ export default function Page() {
         links={[
           "https://play.date/games/lost-your-marbles/",
           "https://github.com/aylanonsense/marbles",
-        ]}>
+        ]}
+        style={{ maxWidth: 800 }}>
         <ProjectImage
           src="/lost-your-marbles-gameplay-1.gif"
           alt={"The title screen for \"Lost Your Marbles\" with \"Continue\" and \"New Game\" buttons."}
@@ -27,14 +28,16 @@ export default function Page() {
           alt={"A marble rolls about a 2D world with \"Choose your paper\" written overtop."}
           width={400}
           height={240}
-          pixelated={true} />
+          pixelated={true}
+          style={{ maxWidth: 400 }} />
         <p>Released in <ExternalLink href="https://play.date/games/season-one/">Playdate Season One</ExternalLink>, Lost Your Marbles received praise for its fantastical world and branching narrative.</p>
         <ProjectImage
           src="/lost-your-marbles-gameplay-2.gif"
           alt={"A character named \"Prota\" shares a conversation with a sunglass-wearing cactus named \"Spiky Jon\"."}
           width={400}
           height={240}
-          pixelated={true} />
+          pixelated={true}
+          style={{ maxWidth: 400 }} />
       </ProjectContent>
     </>
   )

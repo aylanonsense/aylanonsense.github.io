@@ -25,7 +25,8 @@ export default function Page() {
           alt={"A silhouetted figure in a doorway requests, \"My house is FLOODING! Get me a CHARISMATIC PLUMBER, quick!!\""}
           width={400}
           height={240}
-          pixelated={true} />
+          pixelated={true}
+          style={{ maxWidth: 400 }} />
         <ProjectImage
           src="/recommendation-dog-gameplay-1.gif"
           alt="A rotary organizer flips through people with a variety of occupations and stats."

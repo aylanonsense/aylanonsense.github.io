@@ -25,19 +25,22 @@ export default function Page() {
           alt={"A shawowy figure named \"Angler\" say \"Welcome to the Crook, Line and Sinker, your friendly bait shop and home base here at the Kill-de-Sac.\""}
           width={400}
           height={240}
-          pixelated={true} />
+          pixelated={true}
+          style={{ maxWidth: 400 }} />
         <ProjectImage
           src="/reel-steal-screenshot-2.webp"
           alt={"A map of various expensive-looky locations in \"The Kill-De-Sac\"."}
           width={400}
           height={240}
-          pixelated={true} />
+          pixelated={true}
+          style={{ maxWidth: 400 }} />
         <ProjectImage
           src="/reel-steal-screenshot-3.webp"
           alt="A small character suspended on a fishing hook navigates some platforms."
           width={400}
           height={240}
-          pixelated={true} />
+          pixelated={true}
+          style={{ maxWidth: 400 }} />
       </ProjectContent>
     </>
   )

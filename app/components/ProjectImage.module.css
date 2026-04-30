@@ -1,6 +1,7 @@
 .projectImage {
   width: 100%;
   max-height: 580px;
+  margin-inline: auto;
 
   div {
     line-height: 0;

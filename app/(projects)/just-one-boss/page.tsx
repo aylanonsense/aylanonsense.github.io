@@ -31,16 +31,20 @@ export default function Page() {
           alt="A magic mirror throws cards and shoots lasers at a little blue character."
           width={128}
           height={128}
-          pixelated={true} />
+          pixelated={true}
+          style={{ maxWidth: 384 }} />
         <p>&quot;Just One Boss&quot; has been played millions of times across dozens of sites and even has its own <ExternalLink href="https://www.speedrun.com/just_one_boss">speedrunning community</ExternalLink>.</p>
         <ProjectImage
           src="/just-one-boss-gameplay-2.gif"
           alt="A magic mirror pounds its fist and splits into five multicolored reflections."
           width={128}
           height={128}
-          pixelated={true} />
+          pixelated={true}
+          style={{ maxWidth: 384 }} />
         <p>I developed the game over three months, during which I learned music theory to compose the game's chiptune tracks.</p>
-        <SoundCloudEmbed src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A558696030&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true" />
+        <SoundCloudEmbed
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A558696030&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+          style={{ maxWidth: 384 }} />
       </ProjectContent>
     </>
   )
