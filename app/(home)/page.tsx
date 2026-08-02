@@ -1,5 +1,3 @@
-import Link from "next/link"
-import ExternalLink from "@/app/components/ExternalLink"
 import ProjectGrid, { ProjectGridCell } from "@/app/components/ProjectGrid"
 import styles from "./page.module.css"
 
@@ -44,7 +42,6 @@ export default function Page() {
         <ProjectGridCell size="tiny" src="/emoji-surgeon-thumbnail.png" alt="Emoji surgeon" width={120} height={120} />
         */}
       </ProjectGrid>
-      <p>I'm looking for opportunities! If you'd like to work together feel free to <ExternalLink href="mailto:helloaylamyers@gmail.com">reach out</ExternalLink> or <Link href="/resume.pdf">view my résumé</Link>.</p>
     </section>
   )
 }
