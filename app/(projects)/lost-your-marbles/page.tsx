@@ -22,7 +22,7 @@ export default function Page() {
           pixelated={true} />
       </ProjectHeader>
       <ProjectContent>
-        <p>A unique cross between a visual novel and a marble platformer. Help Prota find her dog Minty by talking with the colorful (and oftentimes absurd) inhabitants of Pomegranate Village... except your dialogue choices in the overarching narrative are determined by the exits you take in challenging marble mazes!</p>
+        <p>A unique cross between a visual novel and a marble platformer. Help Prota find her dog by talking with the colorful (and oftentimes absurd) inhabitants of Pomegranate Village... except your dialogue choices are determined by the exits you take in challenging marble mazes!</p>
         <ProjectImage
           src="/lost-your-marbles-gameplay-3.gif"
           alt={"A marble rolls about a 2D world with \"Choose your paper\" written overtop."}

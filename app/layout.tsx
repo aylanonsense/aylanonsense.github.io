@@ -1,12 +1,13 @@
 import type { Metadata } from "next"
-import { Aleo, Raleway } from "next/font/google"
+import { Literata, Raleway } from "next/font/google"
 import joinClassNames from "@/app/utils/joinClassNames"
 import "./globals.css"
 import styles from "./layout.module.css"
 
-const defaultFont = Aleo({
+const defaultFont = Literata({
   variable: "--font",
-  subsets: ["latin"]
+  subsets: ["latin"],
+  weight: "300",
 })
 
 const headingFont = Raleway({

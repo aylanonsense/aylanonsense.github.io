@@ -19,7 +19,7 @@ export default function Page() {
           aspectRatio={560 / 315} />
       </ProjectHeader>
       <ProjectContent>
-        <p>A virtual reality laser sword fighting game with full voxel destruction and physics-based combat. Compete in runs of the Crashloop to gain powerful Turbofists in the hopes of eventually defeating the evil Captain in the Hyperdome itself!</p>
+        <p>A virtual reality laser sword fighting game with full voxel destruction and physics-based combat. Compete in runs of the Crashloop in the hopes of eventually defeating the evil Captain in the Hyperdome itself!</p>
         <ProjectImage
           src="/clone-drone-in-the-hyperdome-screenshot-1.jpg"
           alt="A robot's head is sliced off its body with a laser sword."

@@ -32,7 +32,8 @@ export default function Page() {
           alt="A rotary organizer flips through people with a variety of occupations and stats."
           width={280}
           height={280}
-          pixelated={true} />
+          pixelated={true}
+          style={{ maxWidth: 280 }} />
       </ProjectContent>
     </>
   )
