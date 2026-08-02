@@ -55,7 +55,7 @@ body {
 /* Fonts */
 body {
   font-family: var(--font);
-  font-size: 1.125rem;
+  font-size: 1.125rem; /* 1.125 * 16 px = 18 px */
   font-weight: 300;
   line-height: 1.3;
 }
