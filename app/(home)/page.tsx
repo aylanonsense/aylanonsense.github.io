@@ -3,45 +3,54 @@ import styles from "./page.module.css"
 
 export default function Page() {
   return (
-    <section className={styles.page}>
-      <ProjectGrid>
-        <ProjectGridCell size="huge" src="/clone-drone-in-the-hyperdome-title-art.webp" alt="Clone Drone in the Hyperdome" href="/clone-drone-in-the-hyperdome" width={752} height={1000} />
-        <ProjectGridCell size="huge" src="/beast-breaker-title-art.webp" alt="Beast Breaker" href="/beast-breaker" width={752} height={1000} />
-        <ProjectGridCell size="huge" src="/lost-your-marbles-title-art.webp" alt="Lost Your Marbles" href="/lost-your-marbles" width={752} height={1000} />
-        <ProjectGridCell size="huge" src="/just-one-boss-clip.gif" alt="Just One Boss" href="/just-one-boss" width={128} height={128} pixelated={true} />
-        <ProjectGridCell size="huge" src="/staring-clip.gif" alt="staring" href="/staring" width={190} height={190} pixelated={true} />
-        <ProjectGridCell size="huge" src="/arpongi-clip.gif" alt="arpongi" href="/arpongi" width={127} height={127} pixelated={true} />
-        <ProjectGridCell size="big" src="/eight-legs-to-love-clip.gif" alt="8 Legs to Love" href="/eight-legs-to-love" width={128} height={128} pixelated={true} />
-        <ProjectGridCell size="big" src="/recommendation-dog-clip.gif" alt="Recommendation Dog" href="/recommendation-dog" width={280} height={280} pixelated={true} />
-        <ProjectGridCell size="big" src="/quickdraw-blackjack-clip.gif" alt="Quickdraw Blackjack" href="/quickdraw-blackjack" width={190} height={190} pixelated={true} />
-        <ProjectGridCell size="big" src="/reel-steal-clip.gif" alt="Reel Steal" href="/reel-steal" width={240} height={240} pixelated={true} />
-        <ProjectGridCell size="medium" src="/juggle-panic-clip.gif" alt="Juggle Panic" href="/juggle-panic" width={126} height={126} pixelated={true} />
-        <ProjectGridCell size="medium" src="/beach-volleyball-prototype-clip.gif" alt="Beach volleyball prototype" href="/beach-volleyball-prototype" width={75} height={75} pixelated={true} />
-        <ProjectGridCell size="small" src="/snowball-showdown-clip.gif" alt="Snowball Showdown" href="/snowball-showdown" width={127} height={127} pixelated={true} />
-        <ProjectGridCell size="small" src="/grapple-prototype-1-clip.gif" alt="Grapple prototype #1" href="/grapple-prototype-1" width={105} height={105} pixelated={true} />
-        <ProjectGridCell size="small" src="/castle-minigames-clip.gif" alt="Castle minigames" href="/castle-minigames" width={192} height={192} pixelated={true} />
-        <ProjectGridCell size="small" src="/racquet-panic-clip.gif" alt="Racquet Panic" href="/racquet-panic" width={72} height={72} pixelated={true} />
-        <ProjectGridCell size="tiny" src="/western-prototype-clip.gif" alt="Western prototype" href="/western-prototype" width={128} height={128} pixelated={true} />
-        <ProjectGridCell size="tiny" src="/grapple-prototype-2-clip.gif" alt="Grapple prototype #2" href="/grapple-prototype-2" width={75} height={75} pixelated={true} />
-        <ProjectGridCell size="tiny" src="/wave-function-collapse-clip.gif" alt="Wave function collapse" href="/wave-function-collapse" width={75} height={75} pixelated={true} />
-        <ProjectGridCell size="tiny" src="/platform-fighter-prototype-clip.gif" alt="Platform fighter prototype" href="/platform-fighter-prototype" width={118} height={118} pixelated={true} />
-        <ProjectGridCell size="tiny" src="/exact-change-clip.gif" alt="Exact change" href="/exact-change" width={70} height={70} pixelated={true} />
-        <ProjectGridCell size="tiny" src="/boss-fight-prototype-clip.gif" alt="Boss fight prototype" href="/boss-fight-prototype" width={46} height={46} pixelated={true} />
-        <ProjectGridCell size="tiny" src="/train-prototype-clip.gif" alt="Train prototype" href="/train-prototype" width={64} height={64} pixelated={true} />
-        <ProjectGridCell size="tiny" src="/nebulaic-clip.gif" alt="Nebulaic" href="/nebulaic" width={125} height={125} pixelated={true} />
-        <ProjectGridCell size="tiny" src="/agab-clip.gif" alt="AGAB" href="/agab" width={128} height={128} pixelated={true} />
-        <ProjectGridCell size="tiny" src="/efflorescence-clip.gif" alt="Efflorescence" href="/efflorescence" width={150} height={150} pixelated={true} />
-        <ProjectGridCell size="tiny" src="/mindsweeper-clip.gif" alt="Mindsweeper" href="/mindsweeper" width={156} height={156} pixelated={true} />
-        <ProjectGridCell size="tiny" src="/virtual-pet-prototype-clip.gif" alt="Virtual pet prototype" href="/virtual-pet-prototype" width={100} height={100} />
-        {/* 
-        <ProjectGridCell size="tiny" src="/snowboarding-prototype-clip.gif" alt="Snowboarding prototype" width={128} height={128} pixelated={true} />
-        <ProjectGridCell size="tiny" src="/tennis-prototype-clip.gif" alt="Tennis prototype" width={30} height={30} pixelated={true} />
-        <ProjectGridCell size="tiny" src="/minepick-platformer-prototype-clip.gif" alt="Minepick platformer prototype" width={50} height={50} pixelated={true} />
-        <ProjectGridCell size="tiny" src="/time-travel-prototype-clip.gif" alt="Time travel prototype" width={50} height={50} pixelated={true} />
-        <ProjectGridCell size="tiny" src="/voxel-landscape-generation-clip.gif" alt="Voxel landscape generation" width={150} height={150} pixelated={true} />
-        <ProjectGridCell size="tiny" src="/emoji-surgeon-thumbnail.png" alt="Emoji surgeon" width={120} height={120} />
-        */}
-      </ProjectGrid>
-    </section>
+    <div className={styles.page}>
+      <section className={styles["released-projects-section"]}>
+        <h2>Released titles</h2>
+        <ProjectGrid className={styles["released-projects-grid"]}>
+          <ProjectGridCell size="huge" src="/clone-drone-in-the-hyperdome-title-art.webp" alt="Clone Drone in the Hyperdome" href="/clone-drone-in-the-hyperdome" width={752} height={1000} />
+          <ProjectGridCell size="huge" src="/beast-breaker-title-art.webp" alt="Beast Breaker" href="/beast-breaker" width={752} height={1000} />
+          <ProjectGridCell size="huge" src="/lost-your-marbles-title-art.webp" alt="Lost Your Marbles" href="/lost-your-marbles" width={752} height={1000} />
+        </ProjectGrid>
+      </section>
+      <section className={styles["small-projects-section"]}>
+        <h2>Small things</h2>
+        <p>I like to keep a record of the smaller projects, half-finished ideas, and little tinkerings I've done over the years. Here's a handful.</p>
+        <ProjectGrid className={styles["small-projects-grid"]}>
+          <ProjectGridCell size="small" src="/just-one-boss-clip.gif" alt="Just One Boss" href="/just-one-boss" width={128} height={128} pixelated={true} />
+          <ProjectGridCell size="small" src="/staring-clip.gif" alt="staring" href="/staring" width={190} height={190} pixelated={true} />
+          <ProjectGridCell size="small" src="/arpongi-clip.gif" alt="arpongi" href="/arpongi" width={127} height={127} pixelated={true} />
+          <ProjectGridCell size="small" src="/eight-legs-to-love-clip.gif" alt="8 Legs to Love" href="/eight-legs-to-love" width={128} height={128} pixelated={true} />
+          <ProjectGridCell size="small" src="/recommendation-dog-clip.gif" alt="Recommendation Dog" href="/recommendation-dog" width={280} height={280} pixelated={true} />
+          <ProjectGridCell size="small" src="/quickdraw-blackjack-clip.gif" alt="Quickdraw Blackjack" href="/quickdraw-blackjack" width={190} height={190} pixelated={true} />
+          <ProjectGridCell size="small" src="/reel-steal-clip.gif" alt="Reel Steal" href="/reel-steal" width={240} height={240} pixelated={true} />
+          <ProjectGridCell size="small" src="/juggle-panic-clip.gif" alt="Juggle Panic" href="/juggle-panic" width={126} height={126} pixelated={true} />
+          <ProjectGridCell size="small" src="/beach-volleyball-prototype-clip.gif" alt="Beach volleyball prototype" href="/beach-volleyball-prototype" width={75} height={75} pixelated={true} />
+          <ProjectGridCell size="small" src="/snowball-showdown-clip.gif" alt="Snowball Showdown" href="/snowball-showdown" width={127} height={127} pixelated={true} />
+          <ProjectGridCell size="small" src="/grapple-prototype-1-clip.gif" alt="Grapple prototype #1" href="/grapple-prototype-1" width={105} height={105} pixelated={true} />
+          <ProjectGridCell size="small" src="/castle-minigames-clip.gif" alt="Castle minigames" href="/castle-minigames" width={192} height={192} pixelated={true} />
+          <ProjectGridCell size="small" src="/racquet-panic-clip.gif" alt="Racquet Panic" href="/racquet-panic" width={72} height={72} pixelated={true} />
+          <ProjectGridCell size="small" src="/western-prototype-clip.gif" alt="Western prototype" href="/western-prototype" width={128} height={128} pixelated={true} />
+          <ProjectGridCell size="small" src="/grapple-prototype-2-clip.gif" alt="Grapple prototype #2" href="/grapple-prototype-2" width={75} height={75} pixelated={true} />
+          <ProjectGridCell size="small" src="/wave-function-collapse-clip.gif" alt="Wave function collapse" href="/wave-function-collapse" width={75} height={75} pixelated={true} />
+          <ProjectGridCell size="small" src="/platform-fighter-prototype-clip.gif" alt="Platform fighter prototype" href="/platform-fighter-prototype" width={118} height={118} pixelated={true} />
+          <ProjectGridCell size="small" src="/exact-change-clip.gif" alt="Exact change" href="/exact-change" width={70} height={70} pixelated={true} />
+          <ProjectGridCell size="small" src="/boss-fight-prototype-clip.gif" alt="Boss fight prototype" href="/boss-fight-prototype" width={46} height={46} pixelated={true} />
+          {/* <ProjectGridCell size="small" src="/train-prototype-clip.gif" alt="Train prototype" href="/train-prototype" width={64} height={64} pixelated={true} /> */}
+          <ProjectGridCell size="small" src="/nebulaic-clip.gif" alt="Nebulaic" href="/nebulaic" width={125} height={125} pixelated={true} />
+          <ProjectGridCell size="small" src="/agab-clip.gif" alt="AGAB" href="/agab" width={128} height={128} pixelated={true} />
+          <ProjectGridCell size="small" src="/efflorescence-clip.gif" alt="Efflorescence" href="/efflorescence" width={150} height={150} pixelated={true} />
+          <ProjectGridCell size="small" src="/mindsweeper-clip.gif" alt="Mindsweeper" href="/mindsweeper" width={156} height={156} pixelated={true} />
+          <ProjectGridCell size="small" src="/virtual-pet-prototype-clip.gif" alt="Virtual pet prototype" href="/virtual-pet-prototype" width={100} height={100} />
+          {/* 
+          <ProjectGridCell size="small" src="/snowboarding-prototype-clip.gif" alt="Snowboarding prototype" width={128} height={128} pixelated={true} />
+          <ProjectGridCell size="small" src="/tennis-prototype-clip.gif" alt="Tennis prototype" width={30} height={30} pixelated={true} />
+          <ProjectGridCell size="small" src="/minepick-platformer-prototype-clip.gif" alt="Minepick platformer prototype" width={50} height={50} pixelated={true} />
+          <ProjectGridCell size="small" src="/time-travel-prototype-clip.gif" alt="Time travel prototype" width={50} height={50} pixelated={true} />
+          <ProjectGridCell size="small" src="/voxel-landscape-generation-clip.gif" alt="Voxel landscape generation" width={150} height={150} pixelated={true} />
+          <ProjectGridCell size="small" src="/emoji-surgeon-thumbnail.png" alt="Emoji surgeon" width={120} height={120} />
+          */}
+        </ProjectGrid>
+      </section>
+    </div>
   )
 }

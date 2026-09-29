@@ -1,3 +1,43 @@
 .page {
   margin-block-end: 3lh;
+
+  h2 {
+    font-family: var(--heading-font);
+    font-size: 1.75rem; /* 1.75 * 16 px = 28 px */
+    font-weight: 700;
+    text-align: center;
+  }
+}
+
+.released-projects-section {
+  h2 {
+    margin-block-start: 0.5lh;
+    margin-block-end: 0.25lh;
+  }
+}
+
+.small-projects-section {
+  h2 {
+    margin-block-start: 1lh;
+    margin-block-end: 0.25lh;
+  }
+
+  p {
+    max-width: 550px;
+    margin-inline: auto;
+    margin-block: 0.5lh 1lh;
+  }
+}
+
+.small-projects-grid {
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+@media only screen and (max-width: 782px) {
+  .released-projects-grid {
+    max-width: 376px;
+    gap: 10px;
+    margin-inline: auto;
+  }
 }

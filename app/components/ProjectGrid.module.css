@@ -63,7 +63,7 @@
 
 @media only screen and (max-width: 782px) {
   .cell {
-    &.huge { grid-column-end: span 6; }
+    &.huge { grid-column-end: span 12; }
     &.big { grid-column-end: span 4; }
     &.medium { grid-column-end: span 4; }
     &.small { grid-column-end: span 3; }
