@@ -16,8 +16,8 @@ export default function SiteHeader({ compact = false, className, style }: {
       <div>
         {!compact && <p>Game developer</p>}
         <ul>
-          <li><ExternalLink href="https://aylanonsense.itch.io/"><Icon icon="itch.io" width="1em" height="1em" /></ExternalLink></li>
           <li><ExternalLink href="https://github.com/aylanonsense"><Icon icon="GitHub" width="1em" height="1em" /></ExternalLink></li>
+          <li><ExternalLink href="https://www.linkedin.com/in/aylanonsense/"><Icon icon="LinkedIn" width="1em" height="1em" /></ExternalLink></li>
         </ul>
       </div>
     </header>
