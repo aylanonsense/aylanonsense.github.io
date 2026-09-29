@@ -4,10 +4,11 @@ import Icon, { guessIconTypeFromLink } from "@/app/components/Icon"
 import joinClassNames from "@/app/utils/joinClassNames"
 import styles from "./ProjectHeader.module.css"
 
-export default function ProjectHeader({ title, date, releaseDate, links, compact, className, style, children }: {
+export default function ProjectHeader({ title, date, releaseDate, role, links, compact, className, style, children }: {
   title: string,
   date?: string | undefined,
   releaseDate?: string | undefined,
+  role?: string | undefined,
   links?: string[] | undefined,
   compact?: boolean | undefined,
   className?: string | undefined,
@@ -23,6 +24,7 @@ export default function ProjectHeader({ title, date, releaseDate, links, compact
       {releaseDate ?
         (<p className={styles.date}>Released {releaseDate}</p>)
         : (date ? (<p className={styles.date}>{date}</p>) : undefined)}
+      {role ? <p className={styles.role}>{role}</p> : undefined}
       {links && links.length > 0 ?
         (<ul>
           {links.map(href => {

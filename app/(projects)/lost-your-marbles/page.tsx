@@ -9,6 +9,7 @@ export default function Page() {
       <ProjectHeader
         title="Lost Your Marbles"
         releaseDate="September 15, 2021"
+        role="Lead Programmer"
         links={[
           "https://play.date/games/lost-your-marbles/",
           "https://github.com/aylanonsense/marbles",

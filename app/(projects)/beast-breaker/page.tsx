@@ -9,6 +9,7 @@ export default function Page() {
       <ProjectHeader
         title="Beast Breaker"
         releaseDate="September 2021"
+        role="Senior Programmer"
         links={[
           "https://store.steampowered.com/app/4011790/Beast_Breaker/",
           "https://store.epicgames.com/en-US/p/beast-breaker",

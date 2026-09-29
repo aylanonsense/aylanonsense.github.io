@@ -56,3 +56,8 @@
     }
   }
 }
+
+.date,
+.role {
+  margin-top: 0;
+}

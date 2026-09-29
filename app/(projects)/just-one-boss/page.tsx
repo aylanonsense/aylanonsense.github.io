@@ -10,6 +10,7 @@ export default function Page() {
       <ProjectHeader
         title="Just One Boss"
         date="February 2018"
+        role="Solo Dev"
         links={[
           "https://aylanonsense.itch.io/just-one-boss",
           "https://www.lexaloffle.com/bbs/?pid=49234",

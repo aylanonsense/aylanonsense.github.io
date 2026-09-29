@@ -10,6 +10,7 @@ export default function Page() {
       <ProjectHeader
         title="Clone Drone in the Hyperdome"
         releaseDate="December 12, 2024"
+        role="Lead Programmer & Producer"
         links={[
           "https://store.steampowered.com/app/2401230/Clone_Drone_in_the_Hyperdome/",
           "https://www.meta.com/experiences/clone-drone-in-the-hyperdome/4523126804481573/",
