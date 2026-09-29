@@ -16,7 +16,7 @@ const headingFont = Raleway({
 })
 
 export const metadata: Metadata = {
-  title: "ayla~nonsense",
+  title: "Ayla Myers",
   description: "The personal portfolio of Ayla Myers.",
 }
 

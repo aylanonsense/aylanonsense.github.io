@@ -12,7 +12,7 @@ export default function SiteHeader({ compact = false, className, style }: {
 }) {
   return (
     <header className={joinClassNames(styles.siteHeader, compact ? styles.compact : styles.full, className)} style={style}>
-      <h1><Link href="/">ayla~nonsense</Link></h1>
+      <h1><Link href="/">Ayla Myers</Link></h1>
       <div>
         {!compact && <p>Game developer</p>}
         <ul>
