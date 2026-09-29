@@ -7,7 +7,7 @@ export default function Layout({
 }>) {
   return (
     <>
-      <SiteHeader />
+      <SiteHeader compact={true} />
       <main>
         {children}
       </main>

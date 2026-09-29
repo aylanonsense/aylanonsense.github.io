@@ -14,7 +14,6 @@ export default function SiteHeader({ compact = false, className, style }: {
     <header className={joinClassNames(styles.siteHeader, compact ? styles.compact : styles.full, className)} style={style}>
       <h1><Link href="/">Ayla Myers</Link></h1>
       <div>
-        {!compact && <p>Game developer</p>}
         <ul>
           <li><ExternalLink href="https://github.com/aylanonsense"><Icon icon="GitHub" width="1em" height="1em" /></ExternalLink></li>
           <li><ExternalLink href="https://www.linkedin.com/in/aylanonsense/"><Icon icon="LinkedIn" width="1em" height="1em" /></ExternalLink></li>
